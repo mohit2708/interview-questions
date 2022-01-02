@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Django Interview Questions</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+   </head>
+   <style type="text/css">
+      .code_script{
+         background: #ffffff; overflow: auto; width: auto; border: solid orange; border-width: .1em .1em .1em .8em; padding: .2em .6em;
+      }
+      .code_script_ans{
+         background: #ffffff; overflow: auto; width: auto; border: solid green; border-width: .1em .1em .1em .8em; padding: .2em .6em;
+      }
+   </style>
+   <body>
+      <div class="container">
+         <div class="m-4">
+            <div class="accordion" id="myAccordion">
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                     <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapse1">Ques. What is Django?</button>
+                  </h2>
+                  <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>
+                        <ul>
+                           <li>Django is a free and open source web application framework, written in Python.</li>
+                        </ul>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2">Ques. Explain Django Architecture?</button>                  
+                  </h2>
+                  <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>Django follows the MVT (Model View Template) pattern which is based on the Model View Controller architecture.</p>
+                        <img src="images/django-mvt-based-control-flow.png">
+                     </div>
+                  </div>
+               </div>
+
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse3">Ques. Explain the django project directory structure?</button>                  
+                  </h2>
+                  <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p><ul>
+                             <li>manage.py - A command-line utility that allows you to interact with your Django project</li>
+                              <li>__init__.py - An empty file that tells Python that the current directory should be considered as a Python package</li>
+                              <li>settings.py - Comprises the configurations of the current project like DB connections.</li>
+                              <li>urls.py - All the URLs of the project are present here</li>
+                              <li>wsgi.py - This is an entry point for your application which is used by the web servers to serve the project you have created</li>
+                            </ul>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+               
+
+
+
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
