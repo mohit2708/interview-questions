@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Laravel Interview Questions</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+   </head>
+   <style type="text/css">
+      .code_script{
+      background: #ffffff; overflow: auto; width: auto; border: solid orange; border-width: .1em .1em .1em .8em; padding: .2em .6em;
+      }
+      .code_script_ans{
+      background: #ffffff; overflow: auto; width: auto; border: solid green; border-width: .1em .1em .1em .8em; padding: .2em .6em;
+      }
+      .code{
+      border: 0.1rem solid #cdd5e4;
+      background-color: #f5f8ff;
+      padding: 0.5rem 1rem;
+      }
+   </style>
+   <body>
+      <div class="container">
+         <div class="m-4">
+            <div class="accordion" id="myAccordion">
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                     <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#wordpress">Ques. What is the latest Laravel version?</button>
+                  </h2>
+                  <div id="wordpress" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>The latest Laravel version is 8.x.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#what_laravel">Ques. What is Laravel?</button>
+                  </h2>
+                  <div id="what_laravel" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>
+                        <ul>
+                           <li>Laravel is free open source “PHP framework” based on MVC design pattern.</li>
+                           <li>It is created by <em><strong>Taylor Otwell.</strong></em></li>
+                           <li>Laravel provides expressive and elegant syntax that helps in creating a wonderful web application easily and quickly.</li>
+                           <li>The first version of laravel is released on 9 June 2011.</li>
+                        </ul>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#features_laravel">Ques. What is the Features of Laravel?</button>
+                  </h2>
+                  <div id="features_laravel" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>
+                        <ul>
+                           <li>Inbuilt CRSF (cross-site request forgery ) Protection.</li>
+                           <li>Inbuilt paginations</li>
+                           <li>middleware</li>
+                           <li>Eloquent ORM</li>
+                           <li>Query builder available</li>
+                           <li>Reverse Routing</li>
+                           <li>Restful Controllers</li>
+                           <li>Migration</li>
+                           <li>Database Seeding/Database Migration</li>
+                           <li>Autamatic Pagination</li>
+                           <li>Unit Testing</li>
+                           <li>Homestead</li>
+                           <li>Query builder</li>
+                           <li>Route caching</li>
+                           <li>IOC (Inverse of Control) Container Or service container.</li>
+                        </ul>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#composer">Ques. What is Composer?</button>                  
+                  </h2>
+                  <div id="composer" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <ul>
+                           <li>Composer is the package manager for the framework. It helps in adding new packages and updating for our app.</li>
+                           <li>Composer is a tool for dependency management in PHP.</li>
+                           <li>It helps us installing/updating various requirements/components for our app.</li>
+                        </ul>
+                        <pre class="code"><code>composer requires laravel/passport</code></pre>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#templating">Ques. What is the templating engine used in Laravel?</button>                  
+                  </h2>
+                  <div id="templating" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>The templating engine used in Laravel is <em><strong> Blade</strong></em>.</p>
+                        <p>Displaying data If you want to print the value of a variable, then you can do so by simply enclosing the variable within the curly brackets.</p>
+                        <pre class="code"><code>{{$variable}}</code></pre>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#artisan">Ques. What is an artisan?</button>                  
+                  </h2>
+                  <div id="artisan" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>Artisan is the command-line tool for Laravel to help the developer build the application.</p>
+                        <pre class="code"><code>php artisan make:controller</code> -- Make Controller file</pre>
+                        <pre class="code"><code>php artisan make:model</code> -- Make Model file</pre>
+                        <pre class="code"><code>php artisan make:migration</code> -- Make Migration file</pre>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#maintenance">Ques. How to put Laravel applications in maintenance mode?</button>                  
+                  </h2>
+                  <div id="maintenance" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>Laravel applications can be put into maintenance mode using the below command:</p>
+                        <pre class="code"><code>php artisan down</code></pre>
+                        <p>And can put the application again on live using the below command:</p>
+                        <pre class="code"><code>php artisan up</code></pre>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#default_route">Ques. What are the default route files in Laravel?</button>                  
+                  </h2>
+                  <div id="default_route" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>Below are the four default route files in the routes folder in Laravel:</p>
+                        <ul>
+                           <li>web.php - For registering web routes.</li>
+                           <li>api.php - For registering API routes.</li>
+                           <li>console.php - For registering closure-based console commands.</li>
+                           <li>channel.php - For registering all your event broadcasting channels that your application supports.</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#migrations">Ques. What are migrations in Laravel?</button>                  
+                  </h2>
+                  <div id="migrations" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>Migrations are used to create database schemas in Laravel<br>Each migration file is stored with its timestamp of creation to keep track of the order in which it was created.</p>
+                        <pre class="code"><code>php artisan make:migration</code></pre>
+                        <pre class="code"><code><span>&lt;?php</span>
+
+<span class="hljs-keyword">use Illuminate\Database\Migrations\Migration</span>;
+<span class="hljs-keyword">use</span> <span class="hljs-title">Illuminate</span>\<span class="hljs-title">Database</span>\<span class="hljs-title">Schema</span>\<span class="hljs-title">Blueprint</span>;
+<span class="hljs-keyword">use</span> <span class="hljs-title">Illuminate</span>\<span class="hljs-title">Support</span>\<span class="hljs-title">Facades</span>\<span class="hljs-title">Schema</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CreateUsersTable</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Migration</span>
+</span>{
+    <span class="hljs-comment">/**
+     * Run the migrations.
+     *
+     * <span class="hljs-doctag">@return</span> void
+     */</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">up</span>(<span class="hljs-params"></span>)
+    </span>{
+        Schema::create(<span class="hljs-string">'users'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">Blueprint <span class="hljs-variable">$table</span></span>) </span>{
+            <span class="hljs-variable">$table</span>-&gt;id();
+            <span class="hljs-variable">$table</span>-&gt;string(<span class="hljs-string">'name'</span>);
+	      <span class="hljs-comment">// Create other columns</span>
+        });
+    }
+
+    <span class="hljs-comment">/**
+     * Reverse the migrations.
+     *
+     * <span class="hljs-doctag">@return</span> void
+     */</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">down</span>(<span class="hljs-params"></span>)
+    </span>{
+        Schema::dropIfExists(<span class="hljs-string">'users'</span>);
+    }
+}</code></pre>
+                        <p>The up() method runs when we run `php artisan migrate` and down() method runs when we run `php artisan migrate:rollback`.</p>
+                        <p>If we want to rollback all migrations, we can run <strong>php artisan migrate:reset</strong>.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#seeders">Ques. What are seeders in Laravel?</button>                  
+                  </h2>
+                  <div id="seeders" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>Seeders in Laravel are used to put data in the database tables automatically. After running migrations to create the tables.</p>
+                        <pre class="code"><code>php artisan make:seeder AdminTableSeeder</code></pre>
+                     </div>
+                  </div>
+               </div>               
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#service_providers">Ques. What is service providers?</button>                  
+                  </h2>
+                  <div id="service_providers" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>Service providers are the fundamentals of bootstrapping laravel applications.</p>
+                     	<p>config/app.php,</p>
+                     	<pre class="code"><code>'providers' =&gt; [
+
+        /*
+        * Laravel Framework Service Providers...
+        */
+        Illuminate\Auth\AuthServiceProvider::class,
+        Illuminate\Broadcasting\BroadcastServiceProvider::class,
+        Illuminate\Bus\BusServiceProvider::class,
+        Illuminate\Cache\CacheServiceProvider::class,
+        Illuminate\Foundation\Providers\ConsoleSupportServiceProvider::class,
+        Illuminate\Cookie\CookieServiceProvider::class,
+        .
+        .
+        .
+],
+</code></pre>
+                        <pre class="code">
+<code>
+// Create The Service Provider
+php artisan make:provider MyServiceProvider</code></pre>
+                        <p>This command will create a service provider at <strong>App/Providers/</strong> directory with name as MyServiceProvider. </p>
+                     </div>
+                  </div>
+               </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
