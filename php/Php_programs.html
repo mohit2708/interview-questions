@@ -40,7 +40,55 @@
                </div>
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
-                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#what_laravel">Ques. Check if a number is Even or Odd ?</button>
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Swap_Number">Ques. Swap Number ?</button>
+                  </h2>
+                  <div id="Swap_Number" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                      <p><strong>Swap Number Using Third Variable</strong></p>
+                       <pre class="code"><code>&lt;?php
+  function abc($a,$b)   
+  {
+    echo "Value of a: $a&lt;/br>";
+    echo "Value of b: $b&lt;/br>";
+    $temp=$a;
+    $a=$b;
+    $b=$temp;
+    echo "Value of a: $a&lt;/br>";
+    echo "Value of b: $b&lt;/br>";
+  }
+  $n1 = 4;
+  $n2 = 2;
+  abc ($n1,$n2);
+?&gt;</code>
+
+//Output:- 
+Value of a: 4
+Value of b: 2
+Value of a: 2
+Value of b: 4
+</pre>
+<p><strong>Swap Number Without Third Variable</strong></p>
+                       <pre class="code"><code>&lt;?php
+ $a = 5;
+$b = 9;
+
+$a =  $a + $b;  // 5 + 6 = 11
+$b = $a - $b;   // 11 - 6 = 5
+$a = $a - $b;  // 11 - 5 = 6
+
+echo $a . ',' . $b;
+?&gt;</code>
+
+//Output:- 
+9,5
+</pre>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#what_laravel">Ques. Check if a Number is Even or Odd ?</button>
                   </h2>
                   <div id="what_laravel" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                      <div class="card-body">
@@ -62,6 +110,56 @@ $obj->check($number);
 ?&gt;</code>
 
 //Output:- Even
+</pre>
+
+                     </div>
+                  </div>
+               </div>
+
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#even">Ques. Print Even Numbers?</button>
+                  </h2>
+                  <div id="even" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                       <pre class="code"><code>&lt;?php
+function even_print($first, $last){
+  for( $i=$first; $i<=$last; $i++ )
+  { 
+      if( $i%2 == 0 ){
+          echo $i.',';
+      }
+  }  
+}
+even_print(2,21);
+?&gt;</code>
+
+//Output:- 2 4 6 8 10 12 14 16 18 20  
+</pre>
+
+                     </div>
+                  </div>
+               </div>
+
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#odd">Ques. Print Odd Numbers?</button>
+                  </h2>
+                  <div id="odd" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                       <pre class="code"><code>&lt;?php
+function odd_print($first, $last){
+  for( $i=$first; $i<=$last; $i++ )
+  { 
+      if( $i%2 != 0 ){
+          echo $i.',';
+      }
+  }  
+}
+odd_print(2,21);
+?&gt;</code>
+
+//Output:- 2 4 6 8 10 12 14 16 18 20  
 </pre>
 
                      </div>
