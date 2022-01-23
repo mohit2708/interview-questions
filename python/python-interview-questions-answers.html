@@ -11,17 +11,24 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
    </head>
-      <style type="text/css">
+   <style type="text/css">
       .code_script{
-         background: #ffffff; overflow: auto; width: auto; border: solid orange; border-width: .1em .1em .1em .8em; padding: .2em .6em;
+      background: #ffffff; overflow: auto; width: auto; border: solid orange; border-width: .1em .1em .1em .8em; padding: .2em .6em;
       }
       .code_script_ans{
-         background: #ffffff; overflow: auto; width: auto; border: solid green; border-width: .1em .1em .1em .8em; padding: .2em .6em;
+      background: #ffffff; overflow: auto; width: auto; border: solid green; border-width: .1em .1em .1em .8em; padding: .2em .6em;
       }
       .code{
       border: 0.1rem solid #cdd5e4;
       background-color: #f5f8ff;
       padding: 0.5rem 1rem;
+      }
+      .accordion-item {
+      background-color: #f9f9f9;
+      margin-bottom: 10px;
+      position: relative;
+      border-radius: 40px;
+      overflow: hidden;
       }
    </style>
    <body>
@@ -42,17 +49,16 @@
                            <li>Python was created by <em><strong>Guido van Rossum</strong></em>, and released in 1991.</li>
                            <li>It is used for:</li>
                            <ul>
-                             <li>web development (server-side)</li>
-                             <li>software development</li>
-                             <li>mathematics</li>
-                             <li>system scripting</li>
+                              <li>web development (server-side)</li>
+                              <li>software development</li>
+                              <li>mathematics</li>
+                              <li>system scripting</li>
                            </ul>
                         </ul>
                         </p>
                      </div>
                   </div>
                </div>
-
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Frameworks"><strong>Ques. </strong> What is Python Frameworks?</button>
@@ -63,40 +69,48 @@
                      </div>
                   </div>
                </div>
-
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Features"><strong>Ques. </strong> What is Python Features?</button>
                   </h2>
                   <div id="Features" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                      <div class="card-body">
-                      <p><strong>Easy:- </strong>Python is very easy to learn and understand; any beginner can learn Python easily. When writing code in Python, you need fewer lines of code compared to languages like Java.</p>
-                      <p><strong>Interpreted:- </strong>It is interpreted(executed) line by line. This makes it easy to test and debug.</p>
-                      <p><strong>Object-Oriented:- </strong>The Python programming language supports classes and objects and hence it is object-oriented.</p>
-                      <p><strong>Free and Open Source:- </strong>The language and its source code are available to the public for free; there is no need to buy a costly license.</p>
-                      <p><strong>Portable:- </strong>Since Python is open-source, you can run it on Windows, Mac, Linux or any other platform. Your programs will work without any need to change it for every machine.</p>
-                      <p><strong>GUI Programming:- </strong>You can use it to develop a GUI (Graphical User Interface). One way to do this is through Tkinter.</p>
-                      <p><strong>Large Python Library:- </strong>Python provides you with a large standard library.</p>
+                        <p><strong>Easy:- </strong>Python is very easy to learn and understand; any beginner can learn Python easily. When writing code in Python, you need fewer lines of code compared to languages like Java.</p>
+                        <p><strong>Interpreted:- </strong>It is interpreted(executed) line by line. This makes it easy to test and debug.</p>
+                        <p><strong>Object-Oriented:- </strong>The Python programming language supports classes and objects and hence it is object-oriented.</p>
+                        <p><strong>Free and Open Source:- </strong>The language and its source code are available to the public for free; there is no need to buy a costly license.</p>
+                        <p><strong>Portable:- </strong>Since Python is open-source, you can run it on Windows, Mac, Linux or any other platform. Your programs will work without any need to change it for every machine.</p>
+                        <p><strong>GUI Programming:- </strong>You can use it to develop a GUI (Graphical User Interface). One way to do this is through Tkinter.</p>
+                        <p><strong>Large Python Library:- </strong>Python provides you with a large standard library.</p>
                      </div>
                   </div>
-               </div>               
-
+               </div>
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
-                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Extensions"><strong>Ques. </strong> File Extensions in Python??</button>
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Extensions"><strong>Ques. </strong> File Extensions in Python?</button>
                   </h2>
                   <div id="Extensions" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                      <div class="card-body">
-                      <p>
+                        <p>
                         <ul>
-                          <li><strong>.py– </strong>The normal extension for a Python source file</li>
-                          <li><strong>.pyc- </strong>The compiled bytecode</li>
-                          <li><strong>.pyd- </strong>A Windows DLL file</li>
-                          <li><strong>.pyo- </strong>A file created with optimizations</li>
-                          <li><strong>.pyw- </strong>A Python script for Windows</li>
-                          <li><strong>.pyz- </strong>A Python script archive</li>
+                           <li><strong>.py– </strong>The normal extension for a Python source file</li>
+                           <li><strong>.pyc- </strong>The compiled bytecode</li>
+                           <li><strong>.pyd- </strong>A Windows DLL file</li>
+                           <li><strong>.pyo- </strong>A file created with optimizations</li>
+                           <li><strong>.pyw- </strong>A Python script for Windows</li>
+                           <li><strong>.pyz- </strong>A Python script archive</li>
                         </ul>
-                      </p>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#PEP"><strong>Ques. </strong> What is PEP 8?</button>
+                  </h2>
+                  <div id="PEP" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>PEP stands for Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability.</p>
                      </div>
                   </div>
                </div>
@@ -119,101 +133,215 @@
                         </ul>
                         <strong>Arithmetic Operators</strong>
                         <table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">Operators</th>
-      <th scope="col">Descrption</th>
-      <th scope="col">Result</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Addition(+)</td>
-      <td>Adds the values on either side of the operator.</td>
-      <td>3+4=7</td>
-    </tr>
-    <tr>
-      <td>Subtraction(-)</td>
-      <td>Subtracts the value on the right from the one on the left.</td>
-      <td>3+4=-1</td>
-    </tr>
-    <tr>
-      <td>Multiplication(*)</td>
-      <td>Multiplies the values on either side of the operator.</td>
-      <td>3*4=12</td>
-    </tr>    
-    <tr>
-      <td>Division(/)</td>
-      <td>Divides the value on the left by the one on the right. Notice that division results in a floating-point value.</td>
-      <td>3/4=0.75</td>
-    </tr>    
-    <tr>
-      <td>Exponentiation(**)</td>
-      <td>Raises the first number to the power of the second.</td>
-      <td>3**4=81</td>
-    </tr>    
-    <tr>
-      <td>Floor Division(//)</td>
-      <td>Divides and returns the integer value of the quotient. It dumps the digits after the decimal.</td>
-      <td>10//3=3</td>
-    </tr>    
-    <tr>
-      <td> Modulus(%)</td>
-      <td>Divides and returns the value of the remainder.</td>
-      <td>3%4=3</td>
-    </tr>
-  </tbody>
-</table>
-<strong>Comparison(Relational) Operators</strong>
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">Operators</th>
-      <th scope="col">Descrption</th>
-      <th scope="col">Result</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Less than(<)</td>
-      <td>This operator checks if the value on the left of the operator is lesser than the one on the right.</td>
-      <td>3<4=True</td>
-    </tr>
-    <tr>
-      <td>Greater than(>)</td>
-      <td>It checks if the value on the left of the operator is greater than the one on the right.</td>
-      <td>3>4=False</td>
-    </tr>
-    <tr>
-      <td>Less than or equal to(<=)</td>
-      <td>It checks if the value on the left of the operator is lesser than or equal to the one on the right.</td>
-      <td>7<=7 = True</td>
-    </tr>    
-    <tr>
-      <td> Greater than or equal to(>=)</td>
-      <td>It checks if the value on the left of the operator is greater than or equal to the one on the right.</td>
-      <td>0>=0  = True</td>
-    </tr>    
-    <tr>
-      <td>Equal to(= =)</td>
-      <td>This operator checks if the value on the left of the operator is equal to the one on the right.(1 is equal to the Boolean value True, but 2 isn’t. Also, 0 is equal to False.)</td>
-      <td>3==3.0 = True<br><hr>1==True = True<br><hr>7==True = False<br><hr> 0==False = True<br><hr> 0.5==True = False</td>
-    </tr>    
-    <tr>
-      <td>Not equal to(!=)</td>
-      <td>It checks if the value on the left of the operator is not equal to the one on the right.</td>
-      <td>1!=1.0 = False</td>
+                           <thead>
+                              <tr>
+                                 <th scope="col">Operators</th>
+                                 <th scope="col">Descrption</th>
+                                 <th scope="col">Result</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Addition(+)</td>
+                                 <td>Adds the values on either side of the operator.</td>
+                                 <td>3+4=7</td>
+                              </tr>
+                              <tr>
+                                 <td>Subtraction(-)</td>
+                                 <td>Subtracts the value on the right from the one on the left.</td>
+                                 <td>3+4=-1</td>
+                              </tr>
+                              <tr>
+                                 <td>Multiplication(*)</td>
+                                 <td>Multiplies the values on either side of the operator.</td>
+                                 <td>3*4=12</td>
+                              </tr>
+                              <tr>
+                                 <td>Division(/)</td>
+                                 <td>Divides the value on the left by the one on the right. Notice that division results in a floating-point value.</td>
+                                 <td>3/4=0.75</td>
+                              </tr>
+                              <tr>
+                                 <td>Exponentiation(**)</td>
+                                 <td>Raises the first number to the power of the second.</td>
+                                 <td>3**4=81</td>
+                              </tr>
+                              <tr>
+                                 <td>Floor Division(//)</td>
+                                 <td>Divides and returns the integer value of the quotient. It dumps the digits after the decimal.</td>
+                                 <td>10//3=3</td>
+                              </tr>
+                              <tr>
+                                 <td> Modulus(%)</td>
+                                 <td>Divides and returns the value of the remainder.</td>
+                                 <td>3%4=3</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <strong>Comparison(Relational) Operators</strong>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th scope="col">Operators</th>
+                                 <th scope="col">Descrption</th>
+                                 <th scope="col">Result</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Less than(<)</td>
+                                 <td>This operator checks if the value on the left of the operator is lesser than the one on the right.</td>
+                                 <td>3<4=True</td>
+                              </tr>
+                              <tr>
+                                 <td>Greater than(>)</td>
+                                 <td>It checks if the value on the left of the operator is greater than the one on the right.</td>
+                                 <td>3>4=False</td>
+                              </tr>
+                              <tr>
+                                 <td>Less than or equal to(<=)</td>
+                                 <td>It checks if the value on the left of the operator is lesser than or equal to the one on the right.</td>
+                                 <td>7<=7 = True</td>
+                              </tr>
+                              <tr>
+                                 <td> Greater than or equal to(>=)</td>
+                                 <td>It checks if the value on the left of the operator is greater than or equal to the one on the right.</td>
+                                 <td>0>=0  = True</td>
+                              </tr>
+                              <tr>
+                                 <td>Equal to(= =)</td>
+                                 <td>This operator checks if the value on the left of the operator is equal to the one on the right.(1 is equal to the Boolean value True, but 2 isn’t. Also, 0 is equal to False.)</td>
+                                 <td>
+                                    3==3.0 = True<br>
+                                    <hr>
+                                    1==True = True<br>
+                                    <hr>
+                                    7==True = False<br>
+                                    <hr>
+                                    0==False = True<br>
+                                    <hr>
+                                    0.5==True = False
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Not equal to(!=)</td>
+                                 <td>It checks if the value on the left of the operator is not equal to the one on the right.</td>
+                                 <td>1!=1.0 = False</td>
+                           </tbody>
+                        </table>
+                        <strong>Assignment Operators</strong>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th scope="col">Operators</th>
+                                 <th scope="col">Descrption</th>
+                                 <th scope="col">Result</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Assign(=)</td>
+                                 <td>Assigns a value to the expression on the left. Notice that = = is used for comparing, but = is used for assigning.</td>
+                                 <td>>>> a=7<br>
+                                    >>> print(a)<br> //output:- 7
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Add and Assign(+=)</td>
+                                 <td>Adds the values on either side and assigns it to the expression on the left. a+=10 is the same as a=a+10.</td>
+                                 <td>>>> a+=2<br>
+                                    >>> print(a)<br> //output:- 9
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Divide and Assign(/=)</td>
+                                 <td>Divides the value on the left by the one on the right. Then it assigns it to the expression on the left.</td>
+                                 <td>>>> a/=7<br>
+                                    >>> print(a)<br> //output:- 1.0
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Multiply and Assign(*=)</td>
+                                 <td>Multiplies the values on either sides. Then it assigns it to the expression on the left.</td>
+                                 <td>>>> a*=8<br>
+                                    >>> print(a)<br> // 8.0
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Modulus and Assign(%=)</td>
+                                 <td>Performs modulus on the values on either side. Then it assigns it to the expression on the left.</td>
+                                 <td>>>> a%=3<br>
+                                    >>> print(a)<br> //output:- 2.0
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Exponent and Assign(**=)</td>
+                                 <td>Performs exponentiation on the values on either side. Then assigns it to the expression on the left.</td>
+                                 <td>>>> a**=5<br>
+                                    >>> print(a)<br> //output:- 32.0
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Floor-Divide and Assign(//=)</td>
+                                 <td>Performs floor-division on the values on either side. Then assigns it to the expression on the left.</td>
+                                 <td>>>> a//=3 <br>
+                                    >>> print(a)<br> //output:- 10.0
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <strong>Bitwise Operators</strong>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th scope="col">Operators</th>
+                                 <th scope="col">Descrption</th>
+                                 <th scope="col">Result</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Binary AND(&) </td>
+                                 <td>It performs bit by bit AND operation on the two values. Here, binary for 2 is 10, and that for 3 is 11. &-ing them results in 10, which is binary for 2.</td>
+                                 <td>>>> 2&3<br>
+                                    //output:- 2
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Binary OR(|)</td>
+                                 <td>---</td>
+                                 <td>----
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Binary XOR(^)</td>
+                                 <td>---</td>
+                                 <td>---
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Binary One’s Complement(~) </td>
+                                 <td>---</td>
+                                 <td>---
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Binary Left-Shift(<<)</td>
+                                 <td>---</td>
+                                 <td>---
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Binary Right-Shift(>>)</td>
+                                 <td>--</td>
+                                 <td>---</td>
+                              </tr>
+                           </tbody>
+                        </table>
 
-  </tbody>
-</table>
-
-                      
-                      <p><strong>Assignment Operators</strong><br>=, +=, -=, *=, /=, >=, <=</p>
-                      <p><strong>Bitwise Operators</strong><br>& Binary AND, | Binary OR, ^ Binary XOR</p>
                      </div>
                   </div>
                </div>
-
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#membership_operator"><strong>Ques. </strong> What is membership operator and identity operator?</button>
@@ -230,7 +358,7 @@ if 'Ajay' in lst1:
     print('Name Ajay exists in lst1')
 //output:- Name Ajay exists in lst1
 </code></pre>
-<pre class="code"><code>
+                           <pre class="code"><code>
 stri = "I love mohit"
 print("ve" in stri)
 //output:- True
@@ -240,18 +368,17 @@ print("ve" in stri)
 lst1 = ['Ajay', 'Bobby','Ashok', 'Vijay', 'Anil', 'Rahul','Alex', 'Christopher']
   if 'Raghav' not in lst1: print ('Name Raghav does not exists in lst1')
 //output:- Name Raghav exists in lst1
-</code></pre>                           
-<pre class="code"><code>
+</code></pre>
+                           <pre class="code"><code>
 stri = "I love mohit"
 print("ve" not in stri)
 //output:- False
 </code></pre>
-
                         </ul>
                         <p><strong>Identity Operators</strong> These operators help in determining whether a value belongs to a certain class or a certain type, i.e they help in determining the identity of the object. It is useful in finding out the data type a variable holds.</p>
                         <ul>
-                          <li>is</li>
-<pre class="code"><code>                        
+                           <li>is</li>
+                           <pre class="code"><code>                        
 a = 'London'
 b = 'London'
 
@@ -263,12 +390,37 @@ else: print ('a is not c')
 //output:- 
 a is b
 a is not c
-</code></pre>                          
-                          <li>is not</li>
+</code></pre>
+                           <li>is not</li>
                         </ul>
                      </div>
                   </div>
                </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#indentation"><strong>Ques. </strong> Is indentation required in python?</button>
+                  </h2>
+                  <div id="indentation" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>Indentation is necessary for Python. It specifies a block of code. All code within loops, classes, functions, etc is specified within an indented block. It is usually done using four space characters. If your code is not indented necessarily, it will not execute accurately and will throw errors as well.</p>
+                       <img src="images/indentation.png">
+                     </div>
+                  </div>
+               </div>                 
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#memory"><strong>Ques. </strong> How is memory managed in Python?</button>
+                  </h2>
+                  <div id="memory" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <ul>
+                          <li>Python also has an inbuilt garbage collector, which recycles all the unused memory and so that it can be made available to the heap space.</li>
+                          <li>Memory management in python is managed by Python private heap space. All Python objects and data structures are located in a private heap. The programmer does not have access to this private heap. The python interpreter takes care of this instead.</li>
+                          <li>The allocation of heap space for Python objects is done by Python’s memory manager. The core API gives access to some tools for the programmer to code.</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>               
 
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
@@ -288,7 +440,6 @@ a is not c
                      </div>
                   </div>
                </div>
-
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#interpretedlang"><strong>Ques. </strong> What is an Interpreted language?</button>
@@ -299,7 +450,36 @@ a is not c
                      </div>
                   </div>
                </div>
- 
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#List"><strong>Ques. </strong> What is List?</button>
+                  </h2>
+                  <div id="List" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <ul>
+                          <li>Lists are used to store multiple items in a single variable.</li>
+                          <li>List items are ordered, changeable, and allow duplicate values.</li>
+                          <li>The list is changeable, meaning that we can change, add, and remove items in a list after it has been created.</li>
+                          <li>In Python lists are written with square brackets[], separated by commas.</li>
+                          <li>Since lists are indexed, lists can have items with the same value.</li>
+                        </ul>
+  <div class="code">
+  <pre>                       
+my_list = ["apple", "banana", "cherry"]
+my_list = [1, "Hello", 3.4]
+my_list = ["mouse", [8, 4, 6], ['a']] #A list can also have another list as an item. This is called a nested list.
+print(my_list)
+//output:-
+["apple", "banana", "cherry"] [1, "Hello", 3.4] ["mouse", [8, 4, 6], ['a']]
+</pre>
+</div>
+
+
+                     </div>
+                  </div>
+               </div>
+
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#list_tuple"><strong>Ques. </strong> What is the difference between a list and a tuple?</button>                  
@@ -307,46 +487,46 @@ a is not c
                   <div id="list_tuple" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                      <div class="card-body">
                         <p>
-                                                   <table class="table table-hover">
-                          <thead>
-                            <tr>
-                              <th scope="col">#</th>
-                              <th scope="col">List</th>
-                              <th scope="col">Tuple</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <th scope="row">1</th>
-                              <td>A list consists of mutable objects. (Objects which can be changed after creation)</td>
-                              <td>A tuple consists of immutable objects. (Objects which cannot change after creation)</td>
-                            </tr>
-                            <tr>
-                              <th scope="row">2</th>
-                              <td>List has a large memory.</td>
-                              <td>Tuple has a small memory.</td>
-                            </tr>
-                            <tr>
-                              <th scope="row">3</th>
-                              <td >List is stored in two blocks of memory (One is fixed sized and the other is variable sized for storing data)</td>
-                              <td>Tuple is stored in a single block of memory.</td>
-                            </tr>   
-                            <tr>
-                              <th scope="row">4</th>
-                              <td >Creating a list is slower because two memory blocks need to be accessed.</td>
-                              <td>Creating a tuple is faster than creating a list.</td>
-                            </tr>  
-                            <tr>
-                              <th scope="row">5</th>
-                              <td >An element in a list can be removed or replaced.</td>
-                              <td>An element in a tuple cannot be removed or replaced.</td>
-                            </tr>   
-                            <tr>
-                              <th scope="row">6</th>
-                              <td>A list has data stored in [] brackets. For example, [1,2,3]</td>
-                              <td>A tuple has data stored in () brackets. For example, (1,2,3)</td>
-                            </tr>
-                          </tbody>
+                        <table class="table table-hover">
+                           <thead>
+                              <tr>
+                                 <th scope="col">#</th>
+                                 <th scope="col">List</th>
+                                 <th scope="col">Tuple</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <th scope="row">1</th>
+                                 <td>A list consists of mutable objects. (Objects which can be changed after creation)</td>
+                                 <td>A tuple consists of immutable objects. (Objects which cannot change after creation)</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">2</th>
+                                 <td>List has a large memory.</td>
+                                 <td>Tuple has a small memory.</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">3</th>
+                                 <td >List is stored in two blocks of memory (One is fixed sized and the other is variable sized for storing data)</td>
+                                 <td>Tuple is stored in a single block of memory.</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">4</th>
+                                 <td >Creating a list is slower because two memory blocks need to be accessed.</td>
+                                 <td>Creating a tuple is faster than creating a list.</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">5</th>
+                                 <td >An element in a list can be removed or replaced.</td>
+                                 <td>An element in a tuple cannot be removed or replaced.</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">6</th>
+                                 <td>A list has data stored in [] brackets. For example, [1,2,3]</td>
+                                 <td>A tuple has data stored in () brackets. For example, (1,2,3)</td>
+                              </tr>
+                           </tbody>
                         </table>
                         </p>
                      </div>
@@ -359,8 +539,8 @@ a is not c
                   <div id="list_into_tuple" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                      <div class="card-body">
                         <p><strong>1. Using tuple() builtin function</strong><br>
-                           <div style="background: #ffffff; overflow: auto; width: auto; border: solid orange; border-width: .1em .1em .1em .8em; padding: .2em .6em;">
-<pre style="margin: 0; line-height: 125%;">sample_list <span style="color: #333333;">=</span> [<span style="background-color: #fff0f0;">'Compile'</span>, <span style="background-color: #fff0f0;">'With'</span>, <span style="background-color: #fff0f0;">'Favtutor'</span>]
+                        <div style="background: #ffffff; overflow: auto; width: auto; border: solid orange; border-width: .1em .1em .1em .8em; padding: .2em .6em;">
+                           <pre style="margin: 0; line-height: 125%;">sample_list <span style="color: #333333;">=</span> [<span style="background-color: #fff0f0;">'Compile'</span>, <span style="background-color: #fff0f0;">'With'</span>, <span style="background-color: #fff0f0;">'Favtutor'</span>]
 
 <span style="color: #888888;">#convert list into tuple</span>
 tuple1 <span style="color: #333333;">=</span> <span style="color: #007020;">tuple</span>(sample_list)
@@ -368,27 +548,27 @@ tuple1 <span style="color: #333333;">=</span> <span style="color: #007020;">tupl
 <span style="color: #007020;">print</span>(tuple1)
 <span style="color: #007020;">print</span>(<span style="color: #007020;">type</span>(tuple1))
 </pre>
-</div>
-                              <strong>Output:-</strong><br>
-<div style="background: #ffffff; overflow: auto; width: auto; border: solid green; border-width: .1em .1em .1em .8em; padding: .2em .6em;">
-<pre style="margin: 0; line-height: 125%;"><span style="color: #888888;">('Compile', 'With', 'Favtutor')</span>
+                        </div>
+                        <strong>Output:-</strong><br>
+                        <div style="background: #ffffff; overflow: auto; width: auto; border: solid green; border-width: .1em .1em .1em .8em; padding: .2em .6em;">
+                           <pre style="margin: 0; line-height: 125%;"><span style="color: #888888;">('Compile', 'With', 'Favtutor')</span>
 <span style="color: #888888;">&lt;class 'tuple'&gt;</span>
 </pre>
-</div>
-<strong>2.  Using loop inside the tuple</strong>
-<div style="background: #ffffff; overflow: auto; width: auto; border: solid orange; border-width: .1em .1em .1em .8em; padding: .2em .6em;">
-<pre style="margin: 0; line-height: 125%;">sample_list <span style="color: #333333;">=</span> [<span style="background-color: #fff0f0;">'Compile'</span>, <span style="background-color: #fff0f0;">'With'</span>, <span style="background-color: #fff0f0;">'Favtutor'</span>]
+                        </div>
+                        <strong>2.  Using loop inside the tuple</strong>
+                        <div style="background: #ffffff; overflow: auto; width: auto; border: solid orange; border-width: .1em .1em .1em .8em; padding: .2em .6em;">
+                           <pre style="margin: 0; line-height: 125%;">sample_list <span style="color: #333333;">=</span> [<span style="background-color: #fff0f0;">'Compile'</span>, <span style="background-color: #fff0f0;">'With'</span>, <span style="background-color: #fff0f0;">'Favtutor'</span>]
 tuple1 <span style="color: #333333;">=</span> <span style="color: #007020;">tuple</span>(i <span style="color: #008800; font-weight: bold;">for</span> i <span style="color: #000000; font-weight: bold;">in</span> sample_list)
 <span style="color: #007020;">print</span>(tuple1)
 </pre>
-</div>
-<strong>Output:-</strong>
-<div style="background: #ffffff; overflow: auto; width: auto; border: solid green; border-width: .1em .1em .1em .8em; padding: .2em .6em;">
-<pre style="margin: 0; line-height: 125%;"><span style="color: #888888;">('Compile', 'With', 'Favtutor')</span></pre>
-</div>
-<strong>3. Unpack list inside the parenthesis</strong>
-<div style="background: #ffffff; overflow: auto; width: auto; border: solid orange; border-width: .1em .1em .1em .8em; padding: .2em .6em;">
-<pre style="margin: 0; line-height: 125%;">sample_list <span style="color: #333333;">=</span> [<span style="background-color: #fff0f0;">'Compile'</span>, <span style="background-color: #fff0f0;">'With'</span>, <span style="background-color: #fff0f0;">'Favtutor'</span>]
+                        </div>
+                        <strong>Output:-</strong>
+                        <div style="background: #ffffff; overflow: auto; width: auto; border: solid green; border-width: .1em .1em .1em .8em; padding: .2em .6em;">
+                           <pre style="margin: 0; line-height: 125%;"><span style="color: #888888;">('Compile', 'With', 'Favtutor')</span></pre>
+                        </div>
+                        <strong>3. Unpack list inside the parenthesis</strong>
+                        <div style="background: #ffffff; overflow: auto; width: auto; border: solid orange; border-width: .1em .1em .1em .8em; padding: .2em .6em;">
+                           <pre style="margin: 0; line-height: 125%;">sample_list <span style="color: #333333;">=</span> [<span style="background-color: #fff0f0;">'Compile'</span>, <span style="background-color: #fff0f0;">'With'</span>, <span style="background-color: #fff0f0;">'Favtutor'</span>]
 
 <span style="color: #888888;">#unpack list items and form tuple</span>
 tuple1 <span style="color: #333333;">=</span> (<span style="color: #333333;">*</span>sample_list,)
@@ -396,72 +576,70 @@ tuple1 <span style="color: #333333;">=</span> (<span style="color: #333333;">*</
 <span style="color: #007020;">print</span>(tuple1)
 <span style="color: #007020;">print</span>(<span style="color: #007020;">type</span>(tuple1))
 </pre>
-</div>
-<strong>Output:- </strong>
-<div style="background: #ffffff; overflow: auto; width: auto; border: solid green; border-width: .1em .1em .1em .8em; padding: .2em .6em;">
-<pre style="margin: 0; line-height: 125%;"><span style="color: #888888;">('Compile', 'With', 'Favtutor')</span>
+                        </div>
+                        <strong>Output:- </strong>
+                        <div style="background: #ffffff; overflow: auto; width: auto; border: solid green; border-width: .1em .1em .1em .8em; padding: .2em .6em;">
+                           <pre style="margin: 0; line-height: 125%;"><span style="color: #888888;">('Compile', 'With', 'Favtutor')</span>
 <span style="color: #888888;">&lt;class 'tuple'&gt;</span>
 </pre>
-</div>
+                        </div>
                         </p>
                      </div>
                   </div>
                </div>
-
-<div class="accordion-item">
+               <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#list_array"><strong>Ques. </strong> What is the difference between an array and a list?</button>                  
                   </h2>
                   <div id="list_array" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                      <div class="card-body">
                         <p>
-                                                   <table class="table table-hover">
-                          <thead>
-                            <tr>
-                              <th scope="col">#</th>
-                              <th scope="col">List</th>
-                              <th scope="col">Array</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <th scope="row">1</th>
-                              <td>It Contains elements of different data types</td>
-                              <td>It Contains elements of same data types</td>
-                            </tr>
-                            <tr>
-                              <th scope="row">2</th>
-                              <td>Cannot handle arithmetic operations</td>
-                              <td>Can handle arithmetic operations</td>
-                            </tr>
-                            <tr>
-                              <th scope="row">3</th>
-                              <td>We can print the entire list without the help of an explicit loop</td>
-                              <td>To print or access array elements, we will require an explicit loop</td>
-                            </tr>   
-                            <tr>
-                              <th scope="row">4</th>
-                              <td>It consumes a large memory.</td>
-                              <td>It is a more compact in memory size comparatively list.</td>
-                            </tr>  
-                            <tr>
-                              <th scope="row">5</th>
-                              <td>---------------</td>
-                              <td>------------------</td>
-                            </tr>   
-                            <tr>
-                              <th scope="row">6</th>
-                              <td>-----------</td>
-                              <td>-----------------</td>
-                            </tr>
-                          </tbody>
+                        <table class="table table-hover">
+                           <thead>
+                              <tr>
+                                 <th scope="col">#</th>
+                                 <th scope="col">List</th>
+                                 <th scope="col">Array</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <th scope="row">1</th>
+                                 <td>It Contains elements of different data types</td>
+                                 <td>It Contains elements of same data types</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">2</th>
+                                 <td>Cannot handle arithmetic operations</td>
+                                 <td>Can handle arithmetic operations</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">3</th>
+                                 <td>We can print the entire list without the help of an explicit loop</td>
+                                 <td>To print or access array elements, we will require an explicit loop</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">4</th>
+                                 <td>It consumes a large memory.</td>
+                                 <td>It is a more compact in memory size comparatively list.</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">5</th>
+                                 <td>---------------</td>
+                                 <td>------------------</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">6</th>
+                                 <td>-----------</td>
+                                 <td>-----------------</td>
+                              </tr>
+                           </tbody>
                         </table>
                         </p>
                      </div>
                   </div>
                </div>
-
-<div class="accordion-item">
+               <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#list_to_array"><strong>Ques. </strong> How would you convert a list to an array?</button>                  
                   </h2>
@@ -472,67 +650,63 @@ tuple1 <span style="color: #333333;">=</span> (<span style="color: #333333;">*</
                         <p>python3 -m pip install numpy</p>
                         <p><strong>1. Using numpy.array()</strong>
                         <div class="code_script">
-                        <pre>import numpy as np
+                           <pre>import numpy as np
 
 elon_list = [11, 21, 19, 18, 29]
 elon_array = np.array(elon_list)
 
 print(elon_array)
 print(type(elon_array))</pre>
-</div>
-<strong>Output:- </strong>
-<div class="code_script_ans">
-   <pre>[11 21 19 18 29]
+                        </div>
+                        <strong>Output:- </strong>
+                        <div class="code_script_ans">
+                           <pre>[11 21 19 18 29]
 &lt;class 'numpy.ndarray'&gt;</pre>
-</div>
-<strong>2. Using numpy.asarray()</strong>
-<div class="code_script">
-<pre>import numpy as np
+                        </div>
+                        <strong>2. Using numpy.asarray()</strong>
+                        <div class="code_script">
+                           <pre>import numpy as np
 
 elon_list = [11, 21, 19, 18, 29]
 elon_array = np.asarray(elon_list)
 
 print(elon_array)
 print(type(elon_array))</pre>
-</div>
-<strong>Output:- </strong>
-<div class="code_script_ans">
-<pre>
+                        </div>
+                        <strong>Output:- </strong>
+                        <div class="code_script_ans">
+                           <pre>
    [11 21 19 18 29]
 &lt;class 'numpy.ndarray'&gt;
 </pre>
-</div>
-                                                   
+                        </div>
                         </p>
                      </div>
                   </div>
                </div>
-
-<h1>OOPs Concepts</h1>
-<div class="accordion-item">
+               <h1>OOPs Concepts</h1>
+               <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Class"><strong>Ques. </strong> What is Class?</button>                  
                   </h2>
                   <div id="Class" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                      <div class="card-body">
                         <p>The class can be defined as a collection of objects. It is a logical entity that has some specific attributes and methods.<br>
-                          <strong>For example:</strong> if you have an employee class, then it should contain an attribute and method, i.e. an email id, name, age, salary, etc.</p>
-                       
+                           <strong>For example:</strong> if you have an employee class, then it should contain an attribute and method, i.e. an email id, name, age, salary, etc.
+                        </p>
                         <div>
-                        <pre class="code">
+                           <pre class="code">
 class ClassName:     
   &lt;statement-1>     
             .     
             .      
   &lt;statement-N>
 </pre>
-</div>
-                                                   
+                        </div>
                         </p>
                      </div>
                   </div>
                </div>
-
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Object"><strong>Ques. </strong> What is Object?</button>                  
@@ -540,10 +714,10 @@ class ClassName:
                   <div id="Object" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                      <div class="card-body">
                         <p>The object is an entity that has state and behavior. It may be any real-world object like the mouse, keyboard, chair, table, pen, etc.<br>
-                          <strong>For example:</strong> if you have an employee class, then it should contain an attribute and method, i.e. an email id, name, age, salary, etc.</p>
-                       
+                           <strong>For example:</strong> if you have an employee class, then it should contain an attribute and method, i.e. an email id, name, age, salary, etc.
+                        </p>
                         <div>
-                        <pre class="code">
+                           <pre class="code">
 class car:  
     def __init__(self,modelname, year):  
         self.modelname = modelname  
@@ -555,14 +729,12 @@ c1 = car("Toyota", 2016)
 c1.display()
 //output:- Toyota 2016
 </pre>
-</div>
-<p>Here, the <strong>self</strong> is used as a reference variable, which refers to the current class object. It is always the first argument in the function definition. However, using self is optional in the function call.</p>
- 
-<p>The <strong>self-parameter</strong> refers to the current instance of the class and accesses the class variables. We can use anything instead of self, but it must be the first parameter of any function which belongs to the class.</p>
-<h3>Delete the Object</h3>
-<p>We can delete the properties of the object or object itself by using the del keyword. Consider the following example.
-</p>
-<pre class="code">
+                        </div>
+                        <p>Here, the <strong>self</strong> is used as a reference variable, which refers to the current class object. It is always the first argument in the function definition. However, using self is optional in the function call.</p>
+                        <p>The <strong>self-parameter</strong> refers to the current instance of the class and accesses the class variables. We can use anything instead of self, but it must be the first parameter of any function which belongs to the class.</p>
+                        <h3>Delete the Object</h3>
+                        <p>We can delete the properties of the object or object itself by using the del keyword. Consider the following example.</p>
+                        <pre class="code">
 class Employee:  
   id = 10  
   name = "John"  
@@ -577,13 +749,11 @@ class Employee:
       # Deleting the object itself  
       del emp  
       emp.display()
-</pre>                                                
-                        
+</pre>
                      </div>
                   </div>
                </div>
-
-                              <div class="accordion-item">
+               <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Method"><strong>Ques. </strong> What is Method?</button>                  
                   </h2>
@@ -593,19 +763,15 @@ class Employee:
                      </div>
                   </div>
                </div>
-
-
-
-
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Inheritance"><strong>Ques. </strong> What is Inheritance?</button>                  
                   </h2>
                   <div id="Inheritance" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                      <div class="card-body">
-                      <p>
-                          <strong>Syntex:-</strong><br>
-                          <pre class="code">
+                        <p>
+                           <strong>Syntex:-</strong><br>
+                        <pre class="code">
 class class-name(parent class):  
     &lt;class-suite>  
 
@@ -613,86 +779,76 @@ class derive-class(&lt;base class 1>, &lt;base class 2>, ..... &lt;base class n>
     &lt;class - suite>  
   </pre>
                         </p>
-                       
-                                                               
-                        
                      </div>
                   </div>
                </div>
-
             </div>
          </div>
       </div>
    </body>
 </html>
 1. Python Basic
-    d. How to get Id()?
-    e. a=1, b=1 does both have same Id or not?
-    f. What is repr()?
-    g. WAP to count from a string?
-    h. Write methods for the list.
-    i. List of zeros python without function or any method.
-    j. What are deep copy and shallow copy?
-    k. How to use deep copy?
-    l. Count occurrence of each number in list.
-    m. What is list comprehension? 
-    n. Multiply each no by 5 with list comprehension
-    o. List_ = ['a', 'aa', 'aaa', 'ababa']. sort the list on the basis of length. 
-    p. Convert list element into string. 
-    q. Prime numbers program.
-    r. Print this Pattern (* * * ***)
-    s. Write a custom insert() function for list eg. def custom_insert (list, index, item).
-    t. Explain the join method. 
-    u. What is the difference between list and tuple?
-    v. Discard() and remove() in Python?
-    w. Packing, unpacking in tuple?
-    x. What is reduce and filter? Examples
-    y. What is common between dictionary and set?
-    z. Sort in dictionary with key
-    aa. How do you add two dictionaries?
-    bb. Can we pass list or tuple as a key in dictionary?
-    cc. Unique dictionary from list.
-    dd. What is a decorator?
-    ee. What is property decorator?
-    ff. What is a generator?
-    gg. Iterator and iterable difference.
-    hh. Difference between generator and iterator in python.
-    ii. What is lazy evaluation in python?
-    jj. What is Monkey Patching in python?
-    kk. What is Magic method in python?
-    
-  2. File Handling
-    a. What is pickling? Format of object stored in file?
-    b. Static file contains which type of file normally?
-    c. How can be file read in specific location?
-    d. How do you remove a file from a folder?
-    e. If user upload excel file check file format if it is valid or invalid.
-    f. What is context manager?
-    g. What is Garbage Collector?
-    h. Memory management in Python?
-    
-  3. Object Oriented Programming
-    a. What is class and object?
-    b. Create a new class in oops?
-    c. What is constructor?
-    d. Why used constructor?
-    e. Advantage of constructor
-    f. What is the class method?
-    g. What is the difference between Static method and Class method?
-    h. Private variable and how we can access that?
-    i. Inheritance and types of inheritance.
-    j. Difference multilevel and multiple inheritance and drawback?
-    k. What is MRO?
-    l. What is  str?
-    
-    
-  4. Exception Handling
-    a. How can we handle errors in python ?
-    b. How many ways exception in python?
-    
-  5. Multithreading
-    a. What is GIL?
-    
-  6. Numpy
-    a. Tell me some python libraries .. Numpy
-    b. Convert a list into numpy
+d. How to get Id()?
+e. a=1, b=1 does both have same Id or not?
+f. What is repr()?
+g. WAP to count from a string?
+h. Write methods for the list.
+i. List of zeros python without function or any method.
+j. What are deep copy and shallow copy?
+k. How to use deep copy?
+l. Count occurrence of each number in list.
+m. What is list comprehension? 
+n. Multiply each no by 5 with list comprehension
+o. List_ = ['a', 'aa', 'aaa', 'ababa']. sort the list on the basis of length. 
+p. Convert list element into string. 
+q. Prime numbers program.
+r. Print this Pattern (* * * ***)
+s. Write a custom insert() function for list eg. def custom_insert (list, index, item).
+t. Explain the join method. 
+u. What is the difference between list and tuple?
+v. Discard() and remove() in Python?
+w. Packing, unpacking in tuple?
+x. What is reduce and filter? Examples
+y. What is common between dictionary and set?
+z. Sort in dictionary with key
+aa. How do you add two dictionaries?
+bb. Can we pass list or tuple as a key in dictionary?
+cc. Unique dictionary from list.
+dd. What is a decorator?
+ee. What is property decorator?
+ff. What is a generator?
+gg. Iterator and iterable difference.
+hh. Difference between generator and iterator in python.
+ii. What is lazy evaluation in python?
+jj. What is Monkey Patching in python?
+kk. What is Magic method in python?
+2. File Handling
+a. What is pickling? Format of object stored in file?
+b. Static file contains which type of file normally?
+c. How can be file read in specific location?
+d. How do you remove a file from a folder?
+e. If user upload excel file check file format if it is valid or invalid.
+f. What is context manager?
+g. What is Garbage Collector?
+h. Memory management in Python?
+3. Object Oriented Programming
+a. What is class and object?
+b. Create a new class in oops?
+c. What is constructor?
+d. Why used constructor?
+e. Advantage of constructor
+f. What is the class method?
+g. What is the difference between Static method and Class method?
+h. Private variable and how we can access that?
+i. Inheritance and types of inheritance.
+j. Difference multilevel and multiple inheritance and drawback?
+k. What is MRO?
+l. What is  str?
+4. Exception Handling
+a. How can we handle errors in python ?
+b. How many ways exception in python?
+5. Multithreading
+a. What is GIL?
+6. Numpy
+a. Tell me some python libraries .. Numpy
+b. Convert a list into numpy
