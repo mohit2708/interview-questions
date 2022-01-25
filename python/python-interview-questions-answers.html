@@ -474,6 +474,92 @@ print(my_list)
 ["apple", "banana", "cherry"] [1, "Hello", 3.4] ["mouse", [8, 4, 6], ['a']]
 </pre>
 </div>
+<strong>Access List Items</strong>
+<p>thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]</p>
+                        <table class="table table-hover">
+                           <thead>
+                              <tr>
+                                 <th scope="col">Description</th>
+                                 <th scope="col">Ques</th>
+                                 <th scope="col">Ans</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Access Item ke liye</td>
+                                 <td>print(thislist[1])</td>
+                                 <td>banana</td>
+                              </tr>
+                              <tr>
+                                 <td>Range of Indexes (2 sa 5 tak)</td>
+                                 <td>print(thislist[2:5])</td>
+                                 <td>['cherry', 'orange', 'kiwi']</td>
+                              </tr>
+                              <tr>
+                                 <td>Range of Indexes (4 tak)</td>
+                                 <td>print(thislist[:4])</td>
+                                 <td>['apple', 'banana', 'cherry', 'orange']</td>
+                              </tr>                              
+                              <tr>
+                                 <td>2 to the end.</td>
+                                 <td>print(thislist[2:])</td>
+                                 <td>['cherry', 'orange', 'kiwi', 'melon', 'mango']</td>
+                              </tr>
+                              <tr>
+                                 <td >Negative Indexing</td>
+                                 <td >print(thislist[-1])</td>
+                                 <td>mango</td>
+                              </tr>                              
+                              <tr>
+                                 <td >-4 sa -1 tak</td>
+                                 <td >print(thislist[-4:-1])</td>
+                                 <td>['orange', 'kiwi', 'melon']</td>
+                              </tr>
+                           </tbody>
+                        </table>
+<strong>Change List Items</strong>
+<p>thislist = ["apple", "banana", "cherry"]</p>
+<table class="table table-hover">
+                           <thead>
+                              <tr>
+                                 <th scope="col">Description</th>
+                                 <th scope="col">Ques</th>
+                                 <th scope="col">Output</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>List Change/replace Item Value</td>
+                                 <td>thislist[1] = "blackcurrant"</td>
+                                 <td>['apple', 'blackcurrant', 'cherry']</td>
+                              </tr>
+                              <tr>
+                                 <td>List Add Items</td>
+                                 <td>thislist.append("orange")</td>
+                                 <td>['apple', 'banana', 'cherry', 'orange']</td>
+                              </tr>
+                              <tr>
+                                 <td>add Items in partcular postion</td>
+                                 <td>thislist.insert(1, "orange")</td>
+                                 <td>['apple', 'orange', 'banana', 'cherry']</td>
+                              </tr>                              
+                              <tr>
+                                 <td>2 to the end.</td>
+                                 <td>print(thislist[2:])</td>
+                                 <td>['cherry', 'orange', 'kiwi', 'melon', 'mango']</td>
+                              </tr>
+                              <tr>
+                                 <td >Negative Indexing</td>
+                                 <td >print(thislist[-1])</td>
+                                 <td>mango</td>
+                              </tr>                              
+                              <tr>
+                                 <td >-4 sa -1 tak</td>
+                                 <td >print(thislist[-4:-1])</td>
+                                 <td>['orange', 'kiwi', 'melon']</td>
+                              </tr>
+                           </tbody>
+                        </table>
 
 
                      </div>
