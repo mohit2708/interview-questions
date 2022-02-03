@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -535,12 +536,12 @@ print(my_list)
                               </tr>
                               <tr>
                                  <td>List Add Items</td>
-                                 <td>thislist.append("orange")</td>
+                                 <td>thislist.<b>append</b>("orange")</td>
                                  <td>['apple', 'banana', 'cherry', 'orange']</td>
                               </tr>
                               <tr>
                                  <td>add Items in partcular postion</td>
-                                 <td>thislist.insert(1, "orange")</td>
+                                 <td>thislist.<b>insert</b>(1, "orange")</td>
                                  <td>['apple', 'orange', 'banana', 'cherry']</td>
                               </tr>                              
                               <tr>
@@ -565,6 +566,266 @@ print(my_list)
                      </div>
                   </div>
                </div>
+
+                              <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#list_methods"><strong>Ques. </strong> Python - List Methods?</button>                  
+                  </h2>
+                  <div id="list_methods" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>
+<table class="table table-hover table-striped">
+                           <thead>
+                              <tr>
+                                 <th scope="col">#</th>
+                                 <th scope="col">Method</th>
+                                 <th scope="col">Description</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <th scope="row">1</th>
+                                 <td>append()</td>
+                                 <td>Adds an element at the end of the list</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">2</th>
+                                 <td>insert()</td>
+                                 <td>Adds an element at the specified position</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">3</th>
+                                 <td>extend()</td>
+                                 <td>Add the elements of a list (or any iterable), to the end of the current list</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">4</th>
+                                 <td>clear()</td>
+                                 <td>Removes all the elements from the list</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">5</th>
+                                 <td>copy()</td>
+                                 <td>Returns a copy of the list</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">6</th>
+                                 <td>count()</td>
+                                 <td>Returns the number of elements with the specified value</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">7</th>
+                                 <td>index()</td>
+                                 <td>Returns the index of the first element with the specified value</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">8</th>
+                                 <td>pop()</td>
+                                 <td>Removes the element at the specified position</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">9</th>
+                                 <td>remove()</td>
+                                 <td>Removes the item with the specified value</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">10</th>
+                                 <td>reverse()</td>
+                                 <td>Reverses the order of the list</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">10</th>
+                                 <td>sort()</td>
+                                 <td>Sorts the list</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <h5>append() Method</h5>
+                        <p>The append() method appends an element to the end of the list.</p>
+                        <div class="code_script">
+                           <pre>
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+print(fruits)
+</pre>
+                        </div>
+                        <br>
+<div class="code_script_ans">
+Output:- ['apple', 'banana', 'cherry', 'orange']
+                           </pre>
+                        </div>
+                        <div class="code_script">
+                           <pre>
+a = ["apple", "banana", "cherry"]
+b = ["Ford", "BMW", "Volvo"]
+a.append(b)
+print(a)
+</pre>
+                        </div>
+                        <br>
+<div class="code_script_ans">
+Output:- ['apple', 'banana', 'cherry', ["Ford", "BMW", "Volvo"]]
+                           </pre>
+                        </div>
+
+<h5>clear() Method</h5>
+                        <p>The clear() method removes all the elements from a list.</p>
+                        <div class="code_script">
+                           <pre>
+fruits = ["apple", "banana", "cherry"]
+fruits.clear()
+print(fruits)
+</pre>
+                        </div>
+                        <br>
+<div class="code_script_ans">
+Output:- []
+                           </pre>
+                        </div>
+
+                        <h5>copy() Method</h5>
+                        <p>The copy() method returns a copy of the specified list.</p>
+                        <div class="code_script">
+                           <pre>
+fruits = ["apple", "banana", "cherry"]
+x = fruits.copy()
+print(x)
+</pre>
+                        </div>
+                        <br>
+<div class="code_script_ans">
+Output:- ['apple', 'banana', 'cherry']
+                           </pre>
+                        </div>
+
+                        <h5>count() Method</h5>
+                        <p>The count() method returns the number of elements with the specified value.</p>
+                        <div class="code_script">
+                           <pre>
+fruits = ["apple", "banana", "cherry"]
+x = fruits.count("cherry")
+print(x)
+</pre>
+                        </div>
+                        <br>
+<div class="code_script_ans">
+Output:- 1
+                           </pre>
+                        </div>
+                        <div class="code_script">
+                           <pre>
+fruits = [1, 4, 2, 9, 7, 8, 9, 3, 1]
+x = fruits.count(9)
+print(x)
+</pre>
+                        </div>
+                        <br>
+<div class="code_script_ans">
+Output:- 2
+                           </pre>
+                        </div>
+
+                        <h5>extend() Method</h5>
+                        <p>The extend() method adds the specified list elements (or any iterable) to the end of the current list.</p>
+                        <div class="code_script">
+                           <pre>
+fruits = ['apple', 'banana', 'cherry']
+cars = ['Ford', 'BMW', 'Volvo']
+fruits.extend(cars)
+print(fruits)
+</pre>
+                        </div>
+                        <br>
+<div class="code_script_ans">
+Output:- ['apple', 'banana', 'cherry', 'Ford', 'BMW', 'Volvo']
+                           </pre>
+                        </div>
+
+                        <div class="code_script">
+                           <pre>
+fruits = ['apple', 'banana', 'cherry']
+points = (1, 4, 5, 9)
+fruits.extend(points)
+print(fruits)
+</pre>
+                        </div>
+                        <br>
+<div class="code_script_ans">
+Output:- ['apple', 'banana', 'cherry', 1, 4, 5, 9]
+                           </pre>
+                        </div>
+
+
+                        <h5>index() Method</h5>
+                        <p>The extend() method adds the specified list elements (or any iterable) to the end of the current list.</p>
+                        <div class="code_script">
+                           <pre>
+fruits = ['apple', 'banana', 'cherry']
+x = fruits.index("banana")
+print(x)
+</pre>
+                        </div>
+                        <br>
+<div class="code_script_ans">
+Output:- 1
+                           </pre>
+                        </div>
+
+                        <div class="code_script">
+                           <pre>
+fruits = [4, 55, 64, 32, 16, 32]
+x = fruits.index(32)
+print(x)
+</pre>
+                        </div>
+                        <br>
+<div class="code_script_ans">
+Output:- 3
+                           </pre>
+                        </div>                     
+
+                        <h5>insert() Method</h5>
+                        <p>The insert() method inserts the specified value at the specified position.</p>
+                        <div class="code_script">
+                           <pre>
+fruits = ['apple', 'banana', 'cherry']
+fruits.insert(1, "orange")
+print(fruits)
+</pre>
+                        </div>
+                        <br>
+<div class="code_script_ans">
+Output:- ['apple', 'orange', 'banana', 'cherry']
+                           </pre>
+                        </div>
+
+
+                        <h5>pop() Method</h5>
+                        <p>The pop() method removes the element at the specified position.</p>
+                        <div class="code_script">
+                           <pre>
+fruits = ['apple', 'banana', 'cherry']
+x = fruits.pop(1)
+print(x)
+print(fruits)
+</pre>
+                        </div>
+                        <br>
+<div class="code_script_ans">
+Output:- banana
+          ['apple', 'cherry']
+                           </pre>
+                        </div>
+
+
+
+
+
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
 
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
