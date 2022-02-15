@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -115,7 +114,6 @@
                      </div>
                   </div>
                </div>
-
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#operator"><strong>Ques. </strong> What is the operator?</button>
@@ -339,7 +337,6 @@
                               </tr>
                            </tbody>
                         </table>
-
                      </div>
                   </div>
                </div>
@@ -404,10 +401,10 @@ a is not c
                   <div id="indentation" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                      <div class="card-body">
                         <p>Indentation is necessary for Python. It specifies a block of code. All code within loops, classes, functions, etc is specified within an indented block. It is usually done using four space characters. If your code is not indented necessarily, it will not execute accurately and will throw errors as well.</p>
-                       <img src="images/indentation.png">
+                        <img src="images/indentation.png">
                      </div>
                   </div>
-               </div>                 
+               </div>
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#memory"><strong>Ques. </strong> How is memory managed in Python?</button>
@@ -415,14 +412,13 @@ a is not c
                   <div id="memory" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                      <div class="card-body">
                         <ul>
-                          <li>Python also has an inbuilt garbage collector, which recycles all the unused memory and so that it can be made available to the heap space.</li>
-                          <li>Memory management in python is managed by Python private heap space. All Python objects and data structures are located in a private heap. The programmer does not have access to this private heap. The python interpreter takes care of this instead.</li>
-                          <li>The allocation of heap space for Python objects is done by Python’s memory manager. The core API gives access to some tools for the programmer to code.</li>
+                           <li>Python also has an inbuilt garbage collector, which recycles all the unused memory and so that it can be made available to the heap space.</li>
+                           <li>Memory management in python is managed by Python private heap space. All Python objects and data structures are located in a private heap. The programmer does not have access to this private heap. The python interpreter takes care of this instead.</li>
+                           <li>The allocation of heap space for Python objects is done by Python’s memory manager. The core API gives access to some tools for the programmer to code.</li>
                         </ul>
                      </div>
                   </div>
-               </div>               
-
+               </div>
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#typedlang"><strong>Ques. </strong> What is a dynamically typed language?</button>
@@ -451,22 +447,21 @@ a is not c
                      </div>
                   </div>
                </div>
-
-                <div class="accordion-item">
+               <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#List"><strong>Ques. </strong> What is List?</button>
                   </h2>
                   <div id="List" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                      <div class="card-body">
                         <ul>
-                          <li>Lists are used to store multiple items in a single variable.</li>
-                          <li>List items are ordered, changeable, and allow duplicate values.</li>
-                          <li>The list is changeable, meaning that we can change, add, and remove items in a list after it has been created.</li>
-                          <li>In Python lists are written with square brackets[], separated by commas.</li>
-                          <li>Since lists are indexed, lists can have items with the same value.</li>
+                           <li>Lists are used to store multiple items in a single variable.</li>
+                           <li>List items are ordered, changeable, and allow duplicate values.</li>
+                           <li>The list is changeable, meaning that we can change, add, and remove items in a list after it has been created.</li>
+                           <li>In Python lists are written with square brackets[], separated by commas.</li>
+                           <li>Since lists are indexed, lists can have items with the same value.</li>
                         </ul>
-  <div class="code">
-  <pre>                       
+                        <div class="code">
+                           <pre>                       
 my_list = ["apple", "banana", "cherry"]
 my_list = [1, "Hello", 3.4]
 my_list = ["mouse", [8, 4, 6], ['a']] #A list can also have another list as an item. This is called a nested list.
@@ -474,9 +469,9 @@ print(my_list)
 //output:-
 ["apple", "banana", "cherry"] [1, "Hello", 3.4] ["mouse", [8, 4, 6], ['a']]
 </pre>
-</div>
-<strong>Access List Items</strong>
-<p>thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]</p>
+                        </div>
+                        <strong>Access List Items</strong>
+                        <p>thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]</p>
                         <table class="table table-hover">
                            <thead>
                               <tr>
@@ -500,7 +495,7 @@ print(my_list)
                                  <td>Range of Indexes (4 tak)</td>
                                  <td>print(thislist[:4])</td>
                                  <td>['apple', 'banana', 'cherry', 'orange']</td>
-                              </tr>                              
+                              </tr>
                               <tr>
                                  <td>2 to the end.</td>
                                  <td>print(thislist[2:])</td>
@@ -510,7 +505,7 @@ print(my_list)
                                  <td >Negative Indexing</td>
                                  <td >print(thislist[-1])</td>
                                  <td>mango</td>
-                              </tr>                              
+                              </tr>
                               <tr>
                                  <td >-4 sa -1 tak</td>
                                  <td >print(thislist[-4:-1])</td>
@@ -518,9 +513,9 @@ print(my_list)
                               </tr>
                            </tbody>
                         </table>
-<strong>Change List Items</strong>
-<p>thislist = ["apple", "banana", "cherry"]</p>
-<table class="table table-hover">
+                        <strong>Change List Items</strong>
+                        <p>thislist = ["apple", "banana", "cherry"]</p>
+                        <table class="table table-hover">
                            <thead>
                               <tr>
                                  <th scope="col">Description</th>
@@ -543,7 +538,7 @@ print(my_list)
                                  <td>add Items in partcular postion</td>
                                  <td>thislist.<b>insert</b>(1, "orange")</td>
                                  <td>['apple', 'orange', 'banana', 'cherry']</td>
-                              </tr>                              
+                              </tr>
                               <tr>
                                  <td>2 to the end.</td>
                                  <td>print(thislist[2:])</td>
@@ -553,7 +548,7 @@ print(my_list)
                                  <td >Negative Indexing</td>
                                  <td >print(thislist[-1])</td>
                                  <td>mango</td>
-                              </tr>                              
+                              </tr>
                               <tr>
                                  <td >-4 sa -1 tak</td>
                                  <td >print(thislist[-4:-1])</td>
@@ -561,20 +556,17 @@ print(my_list)
                               </tr>
                            </tbody>
                         </table>
-
-
                      </div>
                   </div>
                </div>
-
-                              <div class="accordion-item">
+               <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#list_methods"><strong>Ques. </strong> Python - List Methods?</button>                  
                   </h2>
                   <div id="list_methods" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                      <div class="card-body">
                         <p>
-<table class="table table-hover table-striped">
+                        <table class="table table-hover table-striped">
                            <thead>
                               <tr>
                                  <th scope="col">#</th>
@@ -634,7 +626,7 @@ print(my_list)
                                  <td>Reverses the order of the list</td>
                               </tr>
                               <tr>
-                                 <th scope="row">10</th>
+                                 <th scope="row">11</th>
                                  <td>sort()</td>
                                  <td>Sorts the list</td>
                               </tr>
@@ -650,8 +642,8 @@ print(fruits)
 </pre>
                         </div>
                         <br>
-<div class="code_script_ans">
-Output:- ['apple', 'banana', 'cherry', 'orange']
+                        <div class="code_script_ans">
+                           Output:- ['apple', 'banana', 'cherry', 'orange']
                            </pre>
                         </div>
                         <div class="code_script">
@@ -663,12 +655,11 @@ print(a)
 </pre>
                         </div>
                         <br>
-<div class="code_script_ans">
-Output:- ['apple', 'banana', 'cherry', ["Ford", "BMW", "Volvo"]]
+                        <div class="code_script_ans">
+                           Output:- ['apple', 'banana', 'cherry', ["Ford", "BMW", "Volvo"]]
                            </pre>
                         </div>
-
-<h5>clear() Method</h5>
+                        <h5>clear() Method</h5>
                         <p>The clear() method removes all the elements from a list.</p>
                         <div class="code_script">
                            <pre>
@@ -678,11 +669,10 @@ print(fruits)
 </pre>
                         </div>
                         <br>
-<div class="code_script_ans">
-Output:- []
+                        <div class="code_script_ans">
+                           Output:- []
                            </pre>
                         </div>
-
                         <h5>copy() Method</h5>
                         <p>The copy() method returns a copy of the specified list.</p>
                         <div class="code_script">
@@ -693,11 +683,10 @@ print(x)
 </pre>
                         </div>
                         <br>
-<div class="code_script_ans">
-Output:- ['apple', 'banana', 'cherry']
+                        <div class="code_script_ans">
+                           Output:- ['apple', 'banana', 'cherry']
                            </pre>
                         </div>
-
                         <h5>count() Method</h5>
                         <p>The count() method returns the number of elements with the specified value.</p>
                         <div class="code_script">
@@ -708,8 +697,8 @@ print(x)
 </pre>
                         </div>
                         <br>
-<div class="code_script_ans">
-Output:- 1
+                        <div class="code_script_ans">
+                           Output:- 1
                            </pre>
                         </div>
                         <div class="code_script">
@@ -720,11 +709,10 @@ print(x)
 </pre>
                         </div>
                         <br>
-<div class="code_script_ans">
-Output:- 2
+                        <div class="code_script_ans">
+                           Output:- 2
                            </pre>
                         </div>
-
                         <h5>extend() Method</h5>
                         <p>The extend() method adds the specified list elements (or any iterable) to the end of the current list.</p>
                         <div class="code_script">
@@ -736,11 +724,10 @@ print(fruits)
 </pre>
                         </div>
                         <br>
-<div class="code_script_ans">
-Output:- ['apple', 'banana', 'cherry', 'Ford', 'BMW', 'Volvo']
+                        <div class="code_script_ans">
+                           Output:- ['apple', 'banana', 'cherry', 'Ford', 'BMW', 'Volvo']
                            </pre>
                         </div>
-
                         <div class="code_script">
                            <pre>
 fruits = ['apple', 'banana', 'cherry']
@@ -750,14 +737,12 @@ print(fruits)
 </pre>
                         </div>
                         <br>
-<div class="code_script_ans">
-Output:- ['apple', 'banana', 'cherry', 1, 4, 5, 9]
+                        <div class="code_script_ans">
+                           Output:- ['apple', 'banana', 'cherry', 1, 4, 5, 9]
                            </pre>
                         </div>
-
-
                         <h5>index() Method</h5>
-                        <p>The extend() method adds the specified list elements (or any iterable) to the end of the current list.</p>
+                        <p>The index() method returns the position at the first occurrence of the specified value.</p>
                         <div class="code_script">
                            <pre>
 fruits = ['apple', 'banana', 'cherry']
@@ -766,11 +751,10 @@ print(x)
 </pre>
                         </div>
                         <br>
-<div class="code_script_ans">
-Output:- 1
+                        <div class="code_script_ans">
+                           Output:- 1
                            </pre>
                         </div>
-
                         <div class="code_script">
                            <pre>
 fruits = [4, 55, 64, 32, 16, 32]
@@ -779,11 +763,10 @@ print(x)
 </pre>
                         </div>
                         <br>
-<div class="code_script_ans">
-Output:- 3
+                        <div class="code_script_ans">
+                           Output:- 3
                            </pre>
-                        </div>                     
-
+                        </div>
                         <h5>insert() Method</h5>
                         <p>The insert() method inserts the specified value at the specified position.</p>
                         <div class="code_script">
@@ -794,12 +777,10 @@ print(fruits)
 </pre>
                         </div>
                         <br>
-<div class="code_script_ans">
-Output:- ['apple', 'orange', 'banana', 'cherry']
+                        <div class="code_script_ans">
+                           Output:- ['apple', 'orange', 'banana', 'cherry']
                            </pre>
                         </div>
-
-
                         <h5>pop() Method</h5>
                         <p>The pop() method removes the element at the specified position.</p>
                         <div class="code_script">
@@ -811,22 +792,99 @@ print(fruits)
 </pre>
                         </div>
                         <br>
-<div class="code_script_ans">
-Output:- banana
-          ['apple', 'cherry']
+                        <div class="code_script_ans">
+                           Output:- banana
+                           ['apple', 'cherry']
                            </pre>
                         </div>
-
-
-
-
-
+                        <h5>remove() Method</h5>
+                        <p>The remove() method removes the first occurrence of the element with the specified value.</p>
+                        <div class="code_script">
+                           <pre>
+fruits = ['apple', 'banana', 'cherry']
+fruits.remove("banana")
+print(fruits)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           Output:- ['apple', 'cherry']
+                           </pre>
+                        </div>
+                        <h5>reverse() Method</h5>
+                        <p>The reverse() method reverses the sorting order of the elements.</p>
+                        <div class="code_script">
+                           <pre>
+fruits = ['apple', 'banana', 'cherry']
+fruits.reverse("banana")
+print(fruits)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           Output:- ['cherry', 'banana', 'apple']
+                           </pre>
+                        </div>
+                        <h5>sort() Method</h5>
+                        <p>The sort() method sorts the list ascending by default</p>
+                        <div class="code_script">
+                           <pre>
+cars = ['Ford', 'BMW', 'Volvo']
+cars.sort()
+print(cars)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           Output:- ['BMW', 'Ford', 'Volvo']
+                           </pre>
+                        </div>
+                        <p>Optional. reverse=True will sort the list descending. Default is reverse=False</p>
+                        <div class="code_script">
+                           <pre>
+cars = ['Ford', 'BMW', 'Volvo']
+cars.sort(reverse=True)
+print(cars)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           Output:- ['Volvo', 'Ford', 'BMW']
+                           </pre>
+                        </div>
+                        <strong>Sort the list by the length of the values:</strong>
+                        <div class="code_script">
+                           <pre>
+def myFunc(e):
+  return len(e)
+cars = ['Ford', 'Mitsubishi', 'BMW', 'VWhh']
+cars.sort(key=myFunc)
+print(cars)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           Output:- ['BMW', 'Ford', 'VWhh', 'Mitsubishi']
+                           </pre>
+                        </div>
+                        <div class="code_script">
+                           <pre>
+def myFunc(e):
+  return len(e)
+cars = ['Ford', 'Mitsubishi', 'BMW', 'VW']
+cars.sort(reverse=True, key=myFunc)
+print(cars)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           Output:- ['Mitsubishi', 'Ford'', 'BMW', 'VW']
+                           </pre>
+                        </div>
                         </p>
                      </div>
                   </div>
                </div>
-
-
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#list_tuple"><strong>Ques. </strong> What is the difference between a list and a tuple?</button>                  
@@ -1026,6 +1084,1549 @@ print(type(elon_array))</pre>
    [11 21 19 18 29]
 &lt;class 'numpy.ndarray'&gt;
 </pre>
+                        </div>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#tuple_methods"><strong>Ques. </strong> Python - Tuple Methods?</button>                  
+                  </h2>
+                  <div id="tuple_methods" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>
+                        <table class="table table-hover table-striped">
+                           <thead>
+                              <tr>
+                                 <th scope="col">#</th>
+                                 <th scope="col">Method</th>
+                                 <th scope="col">Description</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <th scope="row">1</th>
+                                 <td>count()</td>
+                                 <td>Returns the number of times a specified value occurs in a tuple</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">2</th>
+                                 <td>index()</td>
+                                 <td>Searches the tuple for a specified value and returns the position of where it was found</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <h5>count() Method</h5>
+                        <p>The count() method returns the number of times a specified value appears in the tuple.</p>
+                        <div class="code_script">
+                           <pre>
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+x = thistuple.count(5)
+print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- 2
+                           </pre>
+                        </div>
+                        <h5>index() Method</h5>
+                        <p>The index() method finds the first occurrence of the specified value.</p>
+                        <div class="code_script">
+                           <pre>
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+x = thistuple.index(8)
+print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- 3
+                           </pre>
+                        </div>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#set_methods"><strong>Ques. </strong> Python - Set Methods?</button>                  
+                  </h2>
+                  <div id="set_methods" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>
+                        <table class="table table-hover table-striped">
+                           <thead>
+                              <tr>
+                                 <th scope="col">#</th>
+                                 <th scope="col">Method</th>
+                                 <th scope="col">Description</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <th scope="row">1</th>
+                                 <td>add()</td>
+                                 <td>Adds an element to the set</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">2</th>
+                                 <td>clear()</td>
+                                 <td>Removes all the elements from the set</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">3</th>
+                                 <td>copy()</td>
+                                 <td>Returns a copy of the set</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">4</th>
+                                 <td>difference()</td>
+                                 <td>Returns a set containing the difference between two or more sets</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">5</th>
+                                 <td>difference_update()</td>
+                                 <td>Removes the items in this set that are also included in another, specified set</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">6</th>
+                                 <td>discard()</td>
+                                 <td>Remove the specified item</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">7</th>
+                                 <td>intersection()</td>
+                                 <td>Returns a set, that is the intersection of two other sets</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">8</th>
+                                 <td>intersection_update()</td>
+                                 <td>Removes the items in this set that are not present in other, specified set(s)</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">9</th>
+                                 <td>isdisjoint()</td>
+                                 <td>Returns whether two sets have a intersection or not</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">10</th>
+                                 <td>issubset()</td>
+                                 <td>Returns whether another set contains this set or not</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">11</th>
+                                 <td>issuperset()</td>
+                                 <td>Returns whether this set contains another set or not</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">12</th>
+                                 <td>pop()</td>
+                                 <td>Removes an element from the set</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">13</th>
+                                 <td>remove()</td>
+                                 <td>Removes the specified element</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">14</th>
+                                 <td>symmetric_difference()</td>
+                                 <td>Returns a set with the symmetric differences of two sets</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">15</th>
+                                 <td>symmetric_difference_update()</td>
+                                 <td>inserts the symmetric differences from this set and another</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">16</th>
+                                 <td>union()</td>
+                                 <td>Return a set containing the union of sets</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">17</th>
+                                 <td>update()</td>
+                                 <td>Update the set with the union of this set and others</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <h5>add() Method</h5>
+                        <p>
+                        <ul>
+                           <li>The add() method adds an element to the set.</li>
+                           <li>If the element already exists, the add() method does not add the element.</li>
+                        </ul>
+                        </p>
+                        <div class="code_script">
+                           <pre>
+thisset = {"apple", "banana", "cherry"}
+thisset.add("orange")
+print(thisset)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'banana', 'apple', 'cherry', 'orange'}
+                           </pre>
+                        </div>
+                        <div class="code_script">
+                           <pre>
+thisset = {"apple", "banana", "cherry"}
+thisset.add("apple")
+print(thisset)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- {'banana', 'cherry', 'apple'}</pre>
+                        </div>
+                        <h5>clear() Method</h5>
+                        <p>The clear() method removes all elements in a set.</p>
+                        <div class="code_script">
+                           <pre>
+thisset = {"apple", "banana", "cherry"}
+thisset.clear()
+print(thisset)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- set()
+                           </pre>
+                        </div>
+                        <h5>copy() Method</h5>
+                        <p>The copy() method copies the set.</p>
+                        <div class="code_script">
+                           <pre>
+fruits = {"apple", "banana", "cherry"}
+x = fruits.copy()
+print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- {'cherry', 'banana', 'apple'}</pre>
+                        </div>
+                        <h5>difference() Method</h5>
+                        <p>The difference() method returns a set that contains the difference between two sets.</p>
+                        <div class="code_script">
+                           <pre>
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+z = y.difference(x) 
+print(z)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- {'google', 'microsoft'}</pre>
+                        </div>
+                        <div class="code_script">
+                           <pre>
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+z = x.difference(y) 
+print(z)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- {'banana', 'cherry'}</pre>
+                        </div>
+                        <h5>difference_update() Method</h5>
+                        <p>The difference_update() method removes the items that exist in both sets.</p>
+                        <P>The difference_update() method is different from the difference() method, because the difference() method returns a new set, without the unwanted items, and the difference_update() method removes the unwanted items from the original set.</P>
+                        <div class="code_script">
+                           <pre>
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+x.difference_update(y) 
+
+print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- {'banana', 'cherry'}</pre>
+                        </div>
+                        <h5>discard() Method</h5>
+                        <p>The discard() method removes the specified item from the set.</p>
+                        <P>This method is different from the remove() method, because the remove() method will raise an error if the specified item does not exist, and the discard() method will not.</P>
+                        <div class="code_script">
+                           <pre>
+thisset = {"apple", "banana", "cherry"}
+thisset.discard("banana")
+print(thisset)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- {'cherry', 'apple'}</pre>
+                        </div>
+                        <h5>remove() Method</h5>
+                        <p>The remove() method removes the specified element from the set.</p>
+                        <P>This method is different from the discard() method, because the remove() method will raise an error if the specified item does not exist, and the discard() method will not.</P>
+                        <div class="code_script">
+                           <pre>
+thisset = {"apple", "banana", "cherry"}
+thisset.discard("banana")
+print(thisset)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- {'cherry', 'apple'}</pre>
+                        </div>
+                        <h5>intersection() Method</h5>
+                        <p>The intersection() method returns a set that contains the similarity between two or more sets.</p>
+                        <P>Meaning: The returned set contains only items that exist in both sets, or in all sets if the comparison is done with more than two sets.</P>
+                        <div class="code_script">
+                           <pre>
+x = {"a", "b", "c"}
+y = {"c", "d", "e"}
+z = {"f", "g", "c"}
+
+result = x.intersection(y, z)
+
+print(result)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- {'c'}</pre>
+                        </div>
+                        <h5>intersection_update() Method</h5>
+                        <p>The intersection_update() method removes the items that is not present in both sets (or in all sets if the comparison is done between more than two sets).</p>
+                        <P>The intersection_update() method is different from the intersection() method, because the intersection() method returns a new set, without the unwanted items, and the intersection_update() method removes the unwanted items from the original set.</P>
+                        <div class="code_script">
+                           <pre>
+x = {"a", "b", "c"}
+y = {"c", "d", "e"}
+z = {"f", "g", "c"}
+
+result = x.intersection_update(y, z)
+
+print(result)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- {'c'}</pre>
+                        </div>
+                        <h5>isdisjoint() Method</h5>
+                        <p>The isdisjoint() method returns True if none of the items are present in both sets, otherwise it returns False.</p>
+                        <div class="code_script">
+                           <pre>
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "facebook"}
+
+z = x.isdisjoint(y) 
+
+print(z)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- True</pre>
+                        </div>
+                        <div class="code_script">
+                           <pre>
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+z = x.isdisjoint(y) 
+
+print(z)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- False</pre>
+                        </div>
+                        <h5>issubset() Method</h5>
+                        <p>The issubset() method returns True if all items in the set exists in the specified set, otherwise it retuns False.</p>
+                        <div class="code_script">
+                           <pre>
+x = {"a", "b", "c"}
+y = {"f", "e", "d", "c", "b"}
+
+z = x.issubset(y) 
+
+print(z)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- False</pre>
+                        </div>
+                        <div class="code_script">
+                           <pre>
+x = {"a", "b", "c"}
+y = {"f", "e", "d", "c", "b", "a"}
+
+z = x.issubset(y) 
+
+print(z)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- True</pre>
+                        </div>
+                        <h5>issuperset() Method</h5>
+                        <p>The issuperset() method returns True if all items in the specified set exists in the original set, otherwise it retuns False.</p>
+                        <div class="code_script">
+                           <pre>
+x = {"f", "e", "d", "c", "b"}
+y = {"a", "b", "c"}
+
+z = x.issuperset(y) 
+
+print(z)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- False</pre>
+                        </div>
+                        <div class="code_script">
+                           <pre>
+x = {"f", "e", "d", "c", "b", "a"}
+y = {"a", "b", "c"}
+
+z = x.issuperset(y) 
+
+print(z)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- True</pre>
+                        </div>
+                        <h5>pop() Method</h5>
+                        <p>The pop() method removes a random item from the set.</p>
+                        <div class="code_script">
+                           <pre>
+x = {"f", "e", "d", "c", "b"}
+y = {"a", "b", "c"}
+
+z = x.issuperset(y) 
+
+print(z)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- False</pre>
+                        </div>
+                        <div class="code_script">
+                           <pre>
+x = {"f", "e", "d", "c", "b", "a"}
+y = {"a", "b", "c"}
+
+z = x.issuperset(y) 
+
+print(z)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- True</pre>
+                        </div>
+                        <h5>symmetric_difference() Method</h5>
+                        <p>The symmetric_difference() method returns a set that contains all items from both set, but not the items that are present in both sets.</p>
+                        <p>Meaning: The returned set contains a mix of items that are not present in both sets.</p>
+                        <div class="code_script">
+                           <pre>
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+z = x.symmetric_difference(y) 
+
+print(z)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- {'google', 'microsoft', 'cherry', 'banana'}</pre>
+                        </div>
+                        <h5>symmetric_difference_update() Method</h5>
+                        <p>The symmetric_difference_update() method updates the original set by removing items that are present in both sets, and inserting the other items.</p>
+                        <div class="code_script">
+                           <pre>
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+x.symmetric_difference_update(y) 
+
+print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- {'google', 'microsoft', 'cherry', 'banana'}</pre>
+                        </div>
+                        <h5>union() Method</h5>
+                        <p>The union() method returns a set that contains all items from the original set, and all items from the specified set(s).</p>
+                        <div class="code_script">
+                           <pre>
+x = {"a", "b", "c"}
+y = {"f", "d", "a"}
+z = {"c", "d", "e"}
+
+result = x.union(y, z) 
+
+print(result)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- {'e', 'a', 'f', 'b', 'c', 'd'}</pre>
+                        </div>
+                        <h5>update() Method</h5>
+                        <p>The update() method updates the current set, by adding items from another set (or any other iterable).</p>
+                        <p>If an item is present in both sets, only one appearance of this item will be present in the updated set.</p>
+                        <div class="code_script">
+                           <pre>
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+x.update(y) 
+
+print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>Output:- {'banana', 'cherry', 'microsoft', 'apple', 'google'}</pre>
+                        </div>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+                               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#dictionaries"><strong>Ques. </strong> What is Dictionaries?</button>                  
+                  </h2>
+                  <div id="dictionaries" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>
+                           <ul>
+                              <li>Dictionaries are used to store data values in key:value pairs and are written with curly brackets.</li>
+                              <li>A dictionary is a collection which is ordered*, changeable and do not allow duplicates.</li>
+                           </ul>
+
+                           <h2>Add a new item to the original dictionary</h2>
+                        <p>Adding an item to the dictionary is done by using a new index key and assigning a value to it:</p>
+<div class="code_script">
+                           <pre>
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.values()
+print(x) #before the change
+
+car["color"] = "red"
+print(x) #after the change
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- dict_values(['Ford', 'Mustang', 1964])
+         dict_values(['Ford', 'Mustang', 1964, 'red'])
+                           </pre>
+                        </div>
+<div class="code_script">
+                           <pre>
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.update({"color": "red"})
+
+print(thisdict)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'color': 'red'}
+                           </pre>
+                        </div>
+
+<h2>Change Dictionary Items</h2>
+<p>You can change the value of a specific item by referring to its key name:</p>
+<div class="code_script">
+                           <pre>
+thisdict =  {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+thisdict["year"] = 2018
+print(thisdict)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'model': 'Mustang', 'year': '1965'}
+                           </pre>
+                        </div>
+                        <div class="code_script">
+                           <pre>
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.update({"year": 2020})
+
+print(thisdict)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'model': 'Mustang', 'year': 2020}
+                           </pre>
+                        </div>
+
+
+<h2>Remove Dictionary Items</h2>
+<p>There are several methods to remove items from a dictionary:</p>
+1. The <strong>pop()</strong> method removes the item with the specified key name:
+<div class="code_script">
+                           <pre>
+thisdict =  {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.pop("model")
+print(thisdict)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'year': 1964}
+                           </pre>
+                        </div>
+2. The <strong>popitem()</strong> method removes the last inserted item (in versions before 3.7, a random item is removed instead):                        
+                        <div class="code_script">
+                           <pre>
+thisdict =  {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.popitem()
+print(thisdict)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'model': 'Mustang'}
+                           </pre>
+                        </div>
+3. The <strong>del()</strong> keyword removes the item with the specified key name:
+ <div class="code_script">
+                           <pre>
+thisdict =  {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+del thisdict["model"]
+print(thisdict)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'year': 1964}
+                           </pre>
+                        </div>
+<p>The <strong>del</strong> keyword can also delete the dictionary completely:</p>                   
+                        <div class="code_script">
+                           <pre>
+thisdict =  {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+del thisdict
+print(thisdict)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- Error
+                           </pre>
+                        </div>
+4. The <strong>clear()</strong> method empties the dictionary:
+ <div class="code_script">
+                           <pre>
+thisdict =  {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.clear()
+print(thisdict)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {}
+                           </pre>
+                        </div>
+                       
+        <h2>Loop Dictionaries</h2>
+        <p>Print all key names in the dictionary, one by one:</p>
+<div class="code_script">
+                           <pre>
+thisdict =  {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in thisdict:
+  print(x)
+
+for x in thisdict.keys():
+  print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- 
+brand
+model
+year
+                           </pre>
+                        </div>
+                        <p>Print all values in the dictionary, one by one:</p>
+                        <div class="code_script">
+                           <pre>
+thisdict =  {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in thisdict.values():
+  print(x)
+  
+for x in thisdict:
+  print(thisdict[x])
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- 
+Ford
+Mustang
+1964
+                           </pre>
+                        </div>                        
+
+                        <div class="code_script">
+                           <pre>
+thisdict =  {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x, y in thisdict.items():
+  print(x, y)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- 
+brand Ford
+model Mustang
+year 1964
+                           </pre>
+                        </div>
+
+<h2>Copy a Dictionary</h2>
+        <p>Make a copy of a dictionary with the <strong>copy()</strong> method:</p>
+<div class="code_script">
+                           <pre>
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+mydict = thisdict.copy()
+print(mydict)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+                           </pre>
+                        </div>
+<p>Another way to make a copy is to use the built-in function <strong>dict().</strong>
+
+</p>
+                        <div class="code_script">
+                           <pre>
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+mydict = dict(thisdict)
+   print(mydict)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+                           </pre>
+                        </div>
+<h2>Nested Dictionaries</h2>
+        <p>A dictionary can contain dictionaries, this is called nested dictionaries.</p>
+<div class="code_script">
+                           <pre>
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
+
+print(myfamily)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'child1': {'name': 'Emil', 'year': 2004}, 'child2': {'name': 'Tobias', 'year': 2007}, 'child3': {'name': 'Linus', 'year': 2011}}
+                           </pre>
+                        </div>
+
+</p>
+                        <div class="code_script">
+                           <pre>
+child1 = {
+  "name" : "Emil",
+  "year" : 2004
+}
+child2 = {
+  "name" : "Tobias",
+  "year" : 2007
+}
+child3 = {
+  "name" : "Linus",
+  "year" : 2011
+}
+
+myfamily = {
+  "child1" : child1,
+  "child2" : child2,
+  "child3" : child3
+}
+
+print(myfamily)
+
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'child1': {'name': 'Emil', 'year': 2004}, 'child2': {'name': 'Tobias', 'year': 2007}, 'child3': {'name': 'Linus', 'year': 2011}}
+                           </pre>
+                        </div>  
+
+                                                 <h2>Access Dictionary Items</h2>
+                        <p>You can access the items of a dictionary by referring to its key name, inside square brackets:</p>
+
+                        <div class="code_script">
+                           <pre>
+thisdict =  {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = thisdict["model"]     # 1 way
+y = thisdict.get("model") # 2 Way
+print(x)
+print(y)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- Mustang
+Mustang
+                           </pre>
+                        </div>
+<h2>Access Dictionary Key And Add Key</h2>
+
+<div class="code_script">
+                           <pre>
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.keys()
+print(x) #before the change
+
+car["color"] = "white"
+print(x) #after the change
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- dict_keys(['brand', 'model', 'year'])
+         dict_keys(['brand', 'model', 'year', 'color'])
+
+                           </pre>
+                        </div>
+
+
+<h2>Get Values</h2>
+<div class="code_script">
+                           <pre>
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.values()
+print(x) #before the change
+
+car["year"] = 2020
+print(x) #after the change
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- dict_values(['Ford', 'Mustang', 1964])
+         dict_values(['Ford', 'Mustang', 2020])
+
+                           </pre>
+                        </div>
+
+
+
+                      <h2>Get item</h2>
+<div class="code_script">
+                           <pre>
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.items()
+print(x) #before the change
+
+car["year"] = 2020
+print(x) #after the change
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+         dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 2020)])
+
+                           </pre>
+                        </div><div class="code_script">
+                           <pre>
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.items()
+print(x) #before the change
+
+car["color"] = "red"
+print(x) #after the change
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+         dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964), ('color', 'red')])
+
+                           </pre>
+                        </div>
+                      <h2>Check if Key Exists</h2>
+<div class="code_script">
+                           <pre>
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+if "model" in thisdict:
+  print("Yes, 'model' is one of the keys in the thisdict dictionary")
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- Yes, 'model' is one of the keys in the thisdict dictionary
+
+                           </pre>
+                        </div>     
+
+
+
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+
+
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#dictionary_methods"><strong>Ques. </strong> Python - Dictionary Methods?</button>                  
+                  </h2>
+                  <div id="dictionary_methods" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>
+                        <table class="table table-hover table-striped">
+                           <thead>
+                              <tr>
+                                 <th scope="col">#</th>
+                                 <th scope="col">Method</th>
+                                 <th scope="col">Description</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <th scope="row">1</th>
+                                 <td>clear()</td>
+                                 <td>Removes all the elements from the dictionary</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">2</th>
+                                 <td>copy()</td>
+                                 <td>Returns a copy of the dictionary</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">3</th>
+                                 <td>fromkeys()</td>
+                                 <td>Returns a dictionary with the specified keys and value</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">4</th>
+                                 <td>fromkeys()</td>
+                                 <td>Returns a dictionary with the specified keys and value</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">5</th>
+                                 <td>get()</td>
+                                 <td>Returns the value of the specified key</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">6</th>
+                                 <td>items()</td>
+                                 <td>Returns a list containing a tuple for each key value pair</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">7</th>
+                                 <td>keys()</td>
+                                 <td>Returns a list containing the dictionary's keys</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">8</th>
+                                 <td>pop()</td>
+                                 <td>Removes the element with the specified key</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">9</th>
+                                 <td>popitem()</td>
+                                 <td>Removes the last inserted key-value pair</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">10</th>
+                                 <td>setdefault()</td>
+                                 <td>Returns the value of the specified key. If the key does not exist: insert the key, with the specified value</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">11</th>
+                                 <td>update()</td>
+                                 <td>Updates the dictionary with the specified key-value pairs</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">12</th>
+                                 <td>values()</td>
+                                 <td>Returns a list of all the values in the dictionary</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <h5>clear() Method</h5>
+                        <p>The clear() method removes all the elements from a dictionary.</p>
+                        <div class="code_script">
+                           <pre>
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car.clear()
+
+print(car)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {}
+                           </pre>
+                        </div>
+                        <h5>copy() Method</h5>
+                        <p>The copy() method returns a copy of the specified dictionary.</p>
+                        <div class="code_script">
+                           <pre>
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.copy()
+
+print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+                           </pre>
+                        </div>
+                        <h5>fromkeys() Method</h5>
+                        <p>The fromkeys() method returns a dictionary with the specified keys and the specified value.</p>
+                        <div class="code_script">
+                           <pre>
+x = ('key1', 'key2', 'key3')
+y = 1
+thisdict = dict.fromkeys(x, y)
+print(thisdict)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'key1': 1, 'key2': 1, 'key3': 1}
+                           </pre>
+                        </div>
+                        <div class="code_script">
+                           <pre>
+x = ('key1', 'key2', 'key3')
+thisdict = dict.fromkeys(x)
+print(thisdict)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- ['key1': None, 'key2': None, 'key3': None]
+                           </pre>
+                        </div>
+                        <h5>get() Method</h5>
+                        <p>The get() method returns the value of the item with the specified key.</p>
+                        <div class="code_script">
+                           <pre>
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.get("model")
+
+print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- Mustang
+                           </pre>
+                        </div>
+                        <h5>items() Method</h5>
+                        <p>The items() method returns a view object. The view object contains the key-value pairs of the dictionary, as tuples in a list.</p>
+                        <div class="code_script">
+                           <pre>
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.items()
+
+print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+                           </pre>
+                        </div>
+                        <div class="code_script">
+                           <pre>
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.items()
+
+car["year"] = 2018
+
+print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 2018)])
+                           </pre>
+                        </div>
+                        <h5>keys() Method</h5>
+                        <p>The keys() method returns a view object. The view object contains the keys of the dictionary, as a list.</p>
+                        <div class="code_script">
+                           <pre>
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.keys()
+
+print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- dict_keys(['brand', 'model', 'year'])
+                           </pre>
+                        </div>
+                        <div class="code_script">
+                           <pre>
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.keys()
+
+car["color"] = "white"
+
+print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- dict_keys(['brand', 'model', 'year', 'color'])
+                           </pre>
+                        </div>
+                        <h5>pop() Method</h5>
+                        <p>The pop() method removes the specified item from the dictionary.</p>
+                        <div class="code_script">
+                           <pre>
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car.pop("model")
+
+print(car)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'year': 1964}
+                           </pre>
+                        </div>
+                        <h5>popitem() Method</h5>
+                        <p>The popitem() method removes the item that was last inserted into the dictionary. In versions before 3.7, the popitem() method removes a random item.</p>
+                        <div class="code_script">
+                           <pre>
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car.popitem()
+
+print(car)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'model': 'Mustang'}
+                           </pre>
+                        </div>
+                        <h5>setdefault() Method</h5>
+                        <p>The setdefault() method returns the value of the item with the specified key.</p>
+                        <div class="code_script">
+                           <pre>
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.setdefault("color", "White")
+
+print(car)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'color': 'White'}
+                           </pre>
+                        </div>
+                        <h5>setdefault() Method</h5>
+                        <p>The setdefault() method returns the value of the item with the specified key.</p>
+                        <div class="code_script">
+                           <pre>
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.setdefault("color", "White")
+
+print(car)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'color': 'White'}
+                           </pre>
+                        </div>
+                        <h5>update() Method</h5>
+                        <p>The update() method inserts the specified items to the dictionary.</p>
+                        <div class="code_script">
+                           <pre>
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car.update({"color": "White"})
+
+print(car)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- {'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'color': 'White'}
+                           </pre>
+                        </div>
+                        <h5>values() Method</h5>
+                        <p>The values() method returns a view object. The view object contains the values of the dictionary, as a list.</p>
+                        <div class="code_script">
+                           <pre>
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.values()
+
+car["year"] = 2018
+
+print(x)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- dict_values(['Ford', 'Mustang', 2018])
+                           </pre>
+                        </div>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#lambda"><strong>Ques. </strong> Python - Lambda Function?</button>                  
+                  </h2>
+                  <div id="lambda" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                     <div class="card-body">
+                        <p>
+                        <ul>
+                           <li>A lambda function is a small anonymous function.</li>
+                           <li>In Python, an anonymous function is a function that is defined without a name.</li>
+                           <li>While normal functions are defined using the def keyword in Python, anonymous functions are defined using the lambda keyword.</li>
+                           <li>Hence, anonymous functions are also called lambda functions.</li>
+                        </ul>
+                        <strong>Syntex:- </strong>lambda arguments: expression
+                        <div class="code_script">
+                           <pre>
+def add(a,b):
+   print(a+b)
+add(5,10)
+===Using Lambda function
+x = lambda a: a + 10
+print(x(5))
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- 15
+                           </pre>
+                        </div>
+                        <h5>You can use lambda function in <em>filter()</em></h5>
+                        <p>filter() function is used to filter a given iterable (list like object) using another function that defines the filtering logic.</p>
+                        <p><strong>Syntex:-</strong>filter(object, iterable)</p>
+                        <p>The object here should be a lambda function which returns a boolean value. </p>
+                        <div class="code_script">
+                           <pre>
+mylist = [2,3,4,5,6,7,8,9,10]
+list_new  = list(filter(lambda x : (x%2==0), mylist))
+print(list_new)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- [2, 4, 6, 8, 10]
+                           </pre>
+                        </div>
+                        <h5>You can use lambda function in <em>map()</em></h5>
+                        <p>map() function applies a given function to all the itmes in a list and returns the result. Similar to filter(), simply pass the lambda function and the list (or any iterable, like tuple) as arguments.</p>
+                        <div class="code_script">
+                           <pre>
+mylist = [2,3,4,5,6,7,8,9,10]
+list_new  = list(map(lambda x : x%2, mylist))
+print(list_new)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- [0, 1, 0, 1, 0, 1, 0, 1, 0]
+                           </pre>
+                        </div>
+                        <h5>You can use lambda function in <em>reduce()</em>as well</h5>
+                        <p>reduce() function performs a repetitive operation over the pairs of the elements in the list. Pass the lambda function and the list as arguments to the reduce() function. For using the reduce() function, you need to import reduce from <strong><em>functools</em></strong> librray.</p>
+                        <div class="code_script">
+                           <pre>
+from functools import reduce
+list1 = [1,2,3,4,5,6,7,8,9]
+sum = reduce((lambda x,y: x+y), list1)
+print(sum)
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <pre>
+Output:- 45 //i.e 1+2, 1+2+3 , 1+2+3+4 and so on.
+                           </pre>
+                        </div>
+                        <h5>How to use lambda function to manipulate a Dataframe</h5>
+                        <p>You can also manipulate the columns of the dataframe using the lambda function. It’s a great candidate to use inside the apply method of a dataframe. I will be trying to add a new row in the dataframe in this section as example.</p>
+                        <div class="code_script">
+                           <pre>
+import pandas as pd
+df = pd.DataFrame([[1,2,3],[4,5,6]],columns = ['First','Second','Third'])
+df['Forth']= df.apply(lambda row: row['First']*row['Second']* row['Third'], axis=1)
+df
+</pre>
+                        </div>
+                        <br>
+                        <div class="code_script_ans">
+                           <table class="dataframe" border="1">
+                              <thead>
+                                 <tr style="text-align:right">
+                                    <th>&nbsp;</th>
+                                    <th>First</th>
+                                    <th>Second</th>
+                                    <th>Third</th>
+                                    <th>Forth</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <th>0</th>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>6</td>
+                                 </tr>
+                                 <tr>
+                                    <th>1</th>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>120</td>
+                                 </tr>
+                              </tbody>
+                           </table>
                         </div>
                         </p>
                      </div>
